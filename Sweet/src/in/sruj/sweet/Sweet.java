@@ -2,11 +2,14 @@ package in.sruj.sweet;
 
 public class Sweet {
 
-    public Sweet(){
+    public Sweet() {
 
-        System.out.println("Sweet");
+        System.out.println("This is Sweet Constructor");
     }
-    public void peda(){
-        System.out.println(" running");
+
+    public  void box(){
+
+        System.out.println("Sweets is in the shop");
     }
 }
+

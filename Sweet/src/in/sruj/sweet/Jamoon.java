@@ -1,16 +1,19 @@
 package in.sruj.sweet;
 import java.util.Objects;
 public class Jamoon {
+
     public Jamoon (Sweet sweet){
-        System.out.println("running constructor in jamoon");
-        if(Objects.nonNull(Sweet)){
-        Sweet.peda();
-    }
-        else{
-            System.out.println("null value occurs");
+
+        System.out.println("Constructor Shop");
+        if(Objects.nonNull(sweet))
+        {
+            sweet.box();
         }
-}
-public void jalebi(){
-    System.out.println("running laddu");
+        else {
+            System.out.println("Null values occur");
+        }
+    }
+    public void box(){
+        System.out.println("Running in box method ");
     }
 }
