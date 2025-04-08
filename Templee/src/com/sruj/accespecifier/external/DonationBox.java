@@ -4,6 +4,7 @@ package com.sruj.accespecifier.external;
 
     public class DonationBox {
         public DonationBox(){
+
             System.out.println("Runnnig external Donationbox const");
         }
         public void Restingarea(){
