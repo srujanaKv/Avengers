@@ -6,6 +6,8 @@ import com.java.internal.Car.internal5.Car;
 import com.java.internal.Car.internal5.Vintage;
 import com.java.internal.Cricket.internal11.Cricket;
 import com.java.internal.Cricket.internal11.Ipl;
+import com.java.internal.Fridge.internal70.DoubleDoorFridge;
+import com.java.internal.Fridge.internal70.Fridge;
 import com.java.internal.Fruit.internal9.Fresh;
 import com.java.internal.Fruit.internal9.Fruit;
 import com.java.internal.Home.internal6.Home;
@@ -24,6 +26,8 @@ import com.java.internal.bag.internal50.Bag;
 import com.java.internal.bag.internal50.SchoolBag;
 import com.java.internal.beach.internal33.Beach;
 import com.java.internal.beach.internal33.Goa;
+import com.java.internal.besheet.internal69.Bedsheet;
+import com.java.internal.besheet.internal69.CottonSheet;
 import com.java.internal.book.internal25.Book;
 import com.java.internal.book.internal25.Novel;
 import com.java.internal.boost.internal60.Boost;
@@ -36,6 +40,10 @@ import com.java.internal.burger.internal45.Burger;
 import com.java.internal.burger.internal45.VegBurger;
 import com.java.internal.camera.internal34.Camera;
 import com.java.internal.camera.internal34.DSLR;
+import com.java.internal.captainamerica.internal68.CaptainAmerica;
+import com.java.internal.captainamerica.internal68.Falcon;
+import com.java.internal.chair.internal72.Chair;
+import com.java.internal.chair.internal72.WoodenChair;
 import com.java.internal.chocolate.internal17.Chocolate;
 import com.java.internal.chocolate.internal17.DarkChocolate;
 import com.java.internal.city.internal27.Banglore;
@@ -62,6 +70,8 @@ import com.java.internal.flower.internal15.Flower;
 import com.java.internal.flower.internal15.Rose;
 import com.java.internal.frenchfry.internal62.CrispyFry;
 import com.java.internal.frenchfry.internal62.FrenchFry;
+import com.java.internal.hulk.internal68.Hulk;
+import com.java.internal.hulk.internal68.ProfessorHulk;
 import com.java.internal.insects.internal64.Firefly;
 import com.java.internal.insects.internal64.Insects;
 import com.java.internal.instrument.internal29.Guitar;
@@ -980,6 +990,74 @@ public class Runner {
         KingThor kt = new KingThor();
         kt.Thunder();
         kt.Hammer();
+
+
+
+        System.out.println("captain america is created");
+
+        CaptainAmerica cap = new CaptainAmerica();
+        cap.Shield();
+
+        CaptainAmerica captainAmerica = new Falcon();
+        captainAmerica.Shield();
+
+        Falcon falcon = new Falcon();
+        falcon.Shield();
+        falcon.Wings();
+
+
+        System.out.println("hulk is created");
+
+        Hulk hulk = new Hulk();
+        hulk.Smash();
+
+        Hulk h = new ProfessorHulk();
+        h.Smash();
+
+        ProfessorHulk ph = new ProfessorHulk();
+        ph.Smash();
+        ph.Think();
+
+
+
+        System.out.println("bedsheet is created");
+
+        Bedsheet sheet = new Bedsheet();
+        sheet.Spread();
+
+        Bedsheet bedsheet = new CottonSheet();
+        bedsheet.Spread();
+
+        CottonSheet cs = new CottonSheet();
+        cs.Spread();
+        cs.Fold();
+
+
+
+        System.out.println("fridge is created");
+
+        Fridge fridge = new Fridge();
+        fridge.Cool();
+
+        Fridge fridge1 = new DoubleDoorFridge();
+        fridge1.Cool();
+
+        DoubleDoorFridge ddf = new DoubleDoorFridge();
+        ddf.Cool();
+        ddf.Freeze();
+
+
+        System.out.println("chair is created");
+
+        Chair chair = new Chair();
+        chair.Sit();
+
+        Chair chair1 = new WoodenChair();
+        chair1.Sit();
+
+        WoodenChair woodenChair = new WoodenChair();
+        woodenChair.Sit();
+        woodenChair.Support();
     }
 }
 
