@@ -28,6 +28,8 @@ import com.java.internal.beach.internal33.Beach;
 import com.java.internal.beach.internal33.Goa;
 import com.java.internal.besheet.internal69.Bedsheet;
 import com.java.internal.besheet.internal69.CottonSheet;
+import com.java.internal.bird.internal75.Bird;
+import com.java.internal.bird.internal75.Sparrow;
 import com.java.internal.book.internal25.Book;
 import com.java.internal.book.internal25.Novel;
 import com.java.internal.boost.internal60.Boost;
@@ -1058,6 +1060,20 @@ public class Runner {
         WoodenChair woodenChair = new WoodenChair();
         woodenChair.Sit();
         woodenChair.Support();
+
+
+
+        System.out.println("bird is created");
+
+        Bird bird = new Bird();
+        bird.Fly();
+
+        Bird bird1 = new Sparrow();
+        bird1.Fly();
+
+        Sparrow sparrow = new Sparrow();
+        sparrow.Fly();
+        sparrow.Chirp();
     }
 }
 
