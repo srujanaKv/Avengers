@@ -14,14 +14,22 @@ import com.java.internal.Home.internal6.Home;
 import com.java.internal.Home.internal6.Member;
 import com.java.internal.Icecream.internal1.Icecream;
 import com.java.internal.Icecream.internal1.Items;
+import com.java.internal.Laddu.internal82.BesanLaddu;
+import com.java.internal.Laddu.internal82.Laddu;
 import com.java.internal.Mobile.internal7.Brand;
 import com.java.internal.Mobile.internal7.Mobile;
 import com.java.internal.SolarSystem.internal4.Galaxy;
 import com.java.internal.SolarSystem.internal4.SolarSystem;
 import com.java.internal.Tv.internal10.Remote;
 import com.java.internal.Tv.internal10.Tv;
+import com.java.internal.amoeba.internal96.Amoeba;
+import com.java.internal.amoeba.internal96.BinaryAmoeba;
 import com.java.internal.animal.internal3.Animal;
 import com.java.internal.animal.internal3.Domestic;
+import com.java.internal.bacteria.internal97.Bacteria;
+import com.java.internal.bacteria.internal97.EColi;
+import com.java.internal.badam.internal89.Badam;
+import com.java.internal.badam.internal89.RoastedBadam;
 import com.java.internal.bag.internal50.Bag;
 import com.java.internal.bag.internal50.SchoolBag;
 import com.java.internal.beach.internal33.Beach;
@@ -30,6 +38,8 @@ import com.java.internal.besheet.internal69.Bedsheet;
 import com.java.internal.besheet.internal69.CottonSheet;
 import com.java.internal.bird.internal75.Bird;
 import com.java.internal.bird.internal75.Sparrow;
+import com.java.internal.biriyani.internal86.Biriyani;
+import com.java.internal.biriyani.internal86.ChickenBiriyani;
 import com.java.internal.book.internal25.Book;
 import com.java.internal.book.internal25.Novel;
 import com.java.internal.boost.internal60.Boost;
@@ -44,10 +54,14 @@ import com.java.internal.camera.internal34.Camera;
 import com.java.internal.camera.internal34.DSLR;
 import com.java.internal.captainamerica.internal68.CaptainAmerica;
 import com.java.internal.captainamerica.internal68.Falcon;
+import com.java.internal.cashew.internal90.Cashew;
+import com.java.internal.cashew.internal90.SaltedCashew;
 import com.java.internal.chair.internal72.Chair;
 import com.java.internal.chair.internal72.WoodenChair;
 import com.java.internal.chocolate.internal17.Chocolate;
 import com.java.internal.chocolate.internal17.DarkChocolate;
+import com.java.internal.chutney.internal88.Chutney;
+import com.java.internal.chutney.internal88.MintChutney;
 import com.java.internal.city.internal27.Banglore;
 import com.java.internal.city.internal27.City;
 import com.java.internal.clock.internal54.Clock;
@@ -56,6 +70,8 @@ import com.java.internal.cloud.internal20.Cloud;
 import com.java.internal.cloud.internal20.StormCloud;
 import com.java.internal.country.internal32.Country;
 import com.java.internal.country.internal32.India;
+import com.java.internal.cow.internal95.Cow;
+import com.java.internal.cow.internal95.DairyCow;
 import com.java.internal.cycle.internal56.Cycle;
 import com.java.internal.cycle.internal56.GearCycle;
 import com.java.internal.door.internal14.Door;
@@ -72,6 +88,8 @@ import com.java.internal.flower.internal15.Flower;
 import com.java.internal.flower.internal15.Rose;
 import com.java.internal.frenchfry.internal62.CrispyFry;
 import com.java.internal.frenchfry.internal62.FrenchFry;
+import com.java.internal.halwa.internal84.CarrotHalwa;
+import com.java.internal.halwa.internal84.Halwa;
 import com.java.internal.hulk.internal68.Hulk;
 import com.java.internal.hulk.internal68.ProfessorHulk;
 import com.java.internal.insects.internal64.Firefly;
@@ -80,12 +98,24 @@ import com.java.internal.instrument.internal29.Guitar;
 import com.java.internal.instrument.internal29.Instrument;
 import com.java.internal.ironman.internal65.Ironman;
 import com.java.internal.ironman.internal65.Mark42;
+import com.java.internal.jalebi.internal80.HotJalebi;
+import com.java.internal.jalebi.internal80.Jalebi;
+import com.java.internal.jamoon.internal79.Jamoon;
+import com.java.internal.jamoon.internal79.SweetJamoon;
 import com.java.internal.kajal.internal48.BlackKajal;
 import com.java.internal.kajal.internal48.Kajal;
+import com.java.internal.kebeb.internal87.Kebab;
+import com.java.internal.kebeb.internal87.SeekhKebab;
+import com.java.internal.kerala.internal91.GodsOwnCountry;
+import com.java.internal.kerala.internal91.Kerala;
+import com.java.internal.kheer.internal83.Kheer;
+import com.java.internal.kheer.internal83.RiceKheer;
 import com.java.internal.lipstick.internal47.Lipstick;
 import com.java.internal.lipstick.internal47.Matte;
 import com.java.internal.machine.internal28.Machine;
 import com.java.internal.machine.internal28.RobotMachine;
+import com.java.internal.masala.internal85.GaramMasala;
+import com.java.internal.masala.internal85.Masala;
 import com.java.internal.metro.internal13.Metro;
 import com.java.internal.metro.internal13.Train;
 import com.java.internal.mountain.internal24.Everest;
@@ -106,10 +136,18 @@ import com.java.internal.paint.internal58.Paint;
 import com.java.internal.paint.internal58.WallPaint;
 import com.java.internal.panipuri.internal43.Panipuri;
 import com.java.internal.panipuri.internal43.SpicyPuri;
+import com.java.internal.parrot.internal99.Parrot;
+import com.java.internal.parrot.internal99.TalkingParrot;
 import com.java.internal.pizza.internal44.CheesePizza;
 import com.java.internal.pizza.internal44.Pizza;
+import com.java.internal.plastic.internal92.Plastic;
+import com.java.internal.plastic.internal92.RecycledPlastic;
 import com.java.internal.pond.internal63.LotusPond;
 import com.java.internal.pond.internal63.Pond;
+import com.java.internal.radio.internal77.FMRadio;
+import com.java.internal.radio.internal77.Radio;
+import com.java.internal.rasgulla.internal81.Rasgulla;
+import com.java.internal.rasgulla.internal81.SoftRasgulla;
 import com.java.internal.river.internal19.Ganga;
 import com.java.internal.river.internal19.River;
 import com.java.internal.robot.internal23.Android;
@@ -130,20 +168,32 @@ import com.java.internal.stove.internal38.GasStove;
 import com.java.internal.stove.internal38.Stove;
 import com.java.internal.sun.internal12.Light;
 import com.java.internal.sun.internal12.Sun;
+import com.java.internal.sunflower.internal78.Sunflower;
+import com.java.internal.sunflower.internal78.YellowSunflower;
 import com.java.internal.sweetcorn.internal42.MasalaCorn;
 import com.java.internal.sweetcorn.internal42.Sweetcorn;
 import com.java.internal.telescope.internal35.SpaceScope;
 import com.java.internal.telescope.internal35.Telescope;
+import com.java.internal.temple.internal100.GoldenTemple;
+import com.java.internal.temple.internal100.Temple;
 import com.java.internal.thor.internal67.KingThor;
 import com.java.internal.thor.internal67.Thor;
+import com.java.internal.tower.internal76.Tower;
+import com.java.internal.tower.internal76.WatchTower;
 import com.java.internal.tree.internal18.MangoTree;
 import com.java.internal.tree.internal18.Tree;
 import com.java.internal.vehicle.internal26.Bullet;
 import com.java.internal.vehicle.internal26.Vehicle;
+import com.java.internal.virus.internal98.FluVirus;
+import com.java.internal.virus.internal98.Virus;
+import com.java.internal.vodka.internal94.PremiumVodka;
+import com.java.internal.vodka.internal94.Vodka;
 import com.java.internal.watch.internal55.SmartWatch;
 import com.java.internal.watch.internal55.Watch;
 import com.java.internal.weather.internal31.Rainy;
 import com.java.internal.weather.internal31.Weather;
+import com.java.internal.wine.internal93.RedWine;
+import com.java.internal.wine.internal93.Wine;
 import com.java.internal.worm.internal2.Color;
 import com.java.internal.worm.internal2.Worm;
 import com.sun.media.sound.SoftLimiter;
@@ -406,13 +456,12 @@ public class Runner {
         Mountain mountain = new Mountain();
         mountain.Climb();
 
-        Mountain mountain1= new Everest();
+        Mountain mountain1 = new Everest();
         mountain1.Climb();
 
         Everest everest = new Everest();
         everest.Climb();
         everest.Height();
-
 
 
         System.out.println("book is created");
@@ -426,7 +475,6 @@ public class Runner {
         Novel novel = new Novel();
         novel.Read();
         novel.Genre();
-
 
 
         System.out.println("vehicle is created");
@@ -453,7 +501,6 @@ public class Runner {
         Banglore banglore = new Banglore();
         banglore.Develop();
         banglore.Skyscrapers();
-
 
 
         System.out.println("machine is created");
@@ -495,7 +542,6 @@ public class Runner {
         chickenEgg.Shell();
 
 
-
         System.out.println("weather is created");
 
         Weather weather = new Weather();
@@ -507,7 +553,6 @@ public class Runner {
         Rainy rainy = new Rainy();
         rainy.Change();
         rainy.Wet();
-
 
 
         System.out.println("country is created");
@@ -523,8 +568,6 @@ public class Runner {
         india.Culture();
 
 
-
-
         System.out.println("beach is created");
 
         Beach beach = new Beach();
@@ -536,8 +579,6 @@ public class Runner {
         Goa goa = new Goa();
         goa.Relax();
         goa.Party();
-
-
 
 
         System.out.println("camera is created");
@@ -553,8 +594,6 @@ public class Runner {
         dslr.Focus();
 
 
-
-
         System.out.println("telescope is created");
 
         Telescope telescope = new Telescope();
@@ -566,7 +605,6 @@ public class Runner {
         SpaceScope scope = new SpaceScope();
         scope.Zoom();
         scope.ViewGalaxy();
-
 
 
         System.out.println("oven is created");
@@ -595,7 +633,6 @@ public class Runner {
         gas.Ignite();
 
 
-
         System.out.println("mushroom is created");
 
         Mushroom mushroom = new Mushroom();
@@ -622,7 +659,6 @@ public class Runner {
         rs.Grip();
 
 
-
         System.out.println("rubberband is created");
 
         Rubberband rubberband = new Rubberband();
@@ -634,7 +670,6 @@ public class Runner {
         ColorBand cb = new ColorBand();
         cb.Stretch();
         cb.Bind();
-
 
 
         System.out.println("sweetcorn is created");
@@ -650,7 +685,6 @@ public class Runner {
         corn.Spice();
 
 
-
         System.out.println("panipuri is created");
 
         Panipuri panipuri = new Panipuri();
@@ -664,7 +698,6 @@ public class Runner {
         puri.Taste();
 
 
-
         System.out.println("pizza is created");
 
         Pizza pizza = new Pizza();
@@ -676,7 +709,6 @@ public class Runner {
         CheesePizza cp = new CheesePizza();
         cp.Bake();
         cp.Slice();
-
 
 
         System.out.println("burger is created");
@@ -705,7 +737,6 @@ public class Runner {
         ms.Hydrate();
 
 
-
         System.out.println("lipstick is created");
 
         Lipstick lipstick = new Lipstick();
@@ -719,7 +750,6 @@ public class Runner {
         matte.Shade();
 
 
-
         System.out.println("kajal is created");
 
         Kajal kajal = new Kajal();
@@ -731,7 +761,6 @@ public class Runner {
         BlackKajal bk = new BlackKajal();
         bk.Line();
         bk.Smudge();
-
 
 
         System.out.println("dress is created");
@@ -760,7 +789,6 @@ public class Runner {
         sb.Store();
 
 
-
         System.out.println("movie is created");
 
         Movie movie = new Movie();
@@ -787,7 +815,6 @@ public class Runner {
         ds.Episode();
 
 
-
         System.out.println("nailpolish is created");
 
         Nailpolish nailpolish = new Nailpolish();
@@ -799,7 +826,6 @@ public class Runner {
         GlitterPolish gp = new GlitterPolish();
         gp.Coat();
         gp.Shine();
-
 
 
         System.out.println("clock is created");
@@ -815,7 +841,6 @@ public class Runner {
         wc.Hang();
 
 
-
         System.out.println("watch is created");
 
         Watch watch = new Watch();
@@ -829,7 +854,6 @@ public class Runner {
         sw.Notify();
 
 
-
         System.out.println("cycle is created");
 
         Cycle cycle = new Cycle();
@@ -841,8 +865,6 @@ public class Runner {
         GearCycle gc = new GearCycle();
         gc.Ride();
         gc.ShiftGear();
-
-
 
 
         System.out.println("earring is created");
@@ -896,7 +918,6 @@ public class Runner {
         eb.Energize();
 
 
-
         System.out.println("bournvita is created");
 
         Bournvita bournvita = new Bournvita();
@@ -908,7 +929,6 @@ public class Runner {
         ChocoBournvita chocoBournvita = new ChocoBournvita();
         chocoBournvita.Mix();
         chocoBournvita.Flavor();
-
 
 
         System.out.println("frenchfry is created");
@@ -924,7 +944,6 @@ public class Runner {
         cf.Serve();
 
 
-
         System.out.println("pond is created");
 
         Pond pond = new Pond();
@@ -936,7 +955,6 @@ public class Runner {
         LotusPond lp = new LotusPond();
         lp.Reflect();
         lp.Bloom();
-
 
 
         System.out.println("insects are created");
@@ -952,7 +970,6 @@ public class Runner {
         firefly.Glow();
 
 
-
         System.out.println("ironman is created");
 
         Ironman ironman = new Ironman();
@@ -964,7 +981,6 @@ public class Runner {
         Mark42 mark = new Mark42();
         mark.Fly();
         mark.Shoot();
-
 
 
         System.out.println("spiderman is created");
@@ -980,7 +996,6 @@ public class Runner {
         mm.web();
 
 
-
         System.out.println("thor is created");
 
         Thor thor = new Thor();
@@ -992,7 +1007,6 @@ public class Runner {
         KingThor kt = new KingThor();
         kt.Thunder();
         kt.Hammer();
-
 
 
         System.out.println("captain america is created");
@@ -1021,7 +1035,6 @@ public class Runner {
         ph.Think();
 
 
-
         System.out.println("bedsheet is created");
 
         Bedsheet sheet = new Bedsheet();
@@ -1033,7 +1046,6 @@ public class Runner {
         CottonSheet cs = new CottonSheet();
         cs.Spread();
         cs.Fold();
-
 
 
         System.out.println("fridge is created");
@@ -1062,7 +1074,6 @@ public class Runner {
         woodenChair.Support();
 
 
-
         System.out.println("bird is created");
 
         Bird bird = new Bird();
@@ -1074,15 +1085,331 @@ public class Runner {
         Sparrow sparrow = new Sparrow();
         sparrow.Fly();
         sparrow.Chirp();
+
+
+        System.out.println("tower is created");
+
+        Tower tower = new Tower();
+        tower.Stand();
+
+        Tower tower1 = new WatchTower();
+        tower1.Stand();
+
+        WatchTower wt = new WatchTower();
+        wt.Stand();
+        wt.Observe();
+
+
+        System.out.println("radio is created");
+
+        Radio radio = new Radio();
+        radio.Play();
+
+        Radio radio1 = new FMRadio();
+        radio1.Play();
+
+        FMRadio fm = new FMRadio();
+        fm.Play();
+        fm.Tune();
+
+
+        System.out.println("sunflower is created");
+
+        Sunflower sunflower = new Sunflower();
+        sunflower.Bloom();
+
+        Sunflower sunflower1 = new YellowSunflower();
+        sunflower1.Bloom();
+
+        YellowSunflower ys = new YellowSunflower();
+        ys.Bloom();
+        ys.Shine();
+
+
+        System.out.println("jamoon is created");
+
+        Jamoon jamoon = new Jamoon();
+        jamoon.Taste();
+
+        Jamoon j = new SweetJamoon();
+        j.Taste();
+
+        SweetJamoon sj = new SweetJamoon();
+        sj.Taste();
+        sj.Serve();
+
+
+        System.out.println("jalebi is created");
+
+        Jalebi jalebi = new Jalebi();
+        jalebi.Swirl();
+
+        Jalebi jalebi1 = new HotJalebi();
+        jalebi1.Swirl();
+
+        HotJalebi hj = new HotJalebi();
+        hj.Swirl();
+        hj.Dip();
+
+
+        System.out.println("rasgulla is created");
+
+        Rasgulla rasgulla = new Rasgulla();
+        rasgulla.Soak();
+
+        Rasgulla rasgulla1 = new SoftRasgulla();
+        rasgulla1.Soak();
+
+        SoftRasgulla sr = new SoftRasgulla();
+        sr.Soak();
+        sr.Squeeze();
+
+
+        System.out.println("laddu is created");
+
+        Laddu laddu = new Laddu();
+        laddu.Roll();
+
+        Laddu l = new BesanLaddu();
+        l.Roll();
+
+        BesanLaddu bl = new BesanLaddu();
+        bl.Roll();
+        bl.Garnish();
+
+
+        System.out.println("halwa is created");
+
+        Halwa halwa = new Halwa();
+        halwa.Mix();
+
+        Halwa halwa1 = new CarrotHalwa();
+        halwa1.Mix();
+
+        CarrotHalwa ch = new CarrotHalwa();
+        ch.Mix();
+        ch.Steam();
+
+
+        System.out.println("kheer is created");
+
+        Kheer kheer = new Kheer();
+        kheer.Boil();
+
+        Kheer k = new RiceKheer();
+        k.Boil();
+
+        RiceKheer rk = new RiceKheer();
+        rk.Boil();
+        rk.Sweeten();
+
+
+        System.out.println("masala is created");
+
+        Masala masala = new Masala();
+        masala.Spice();
+
+        Masala masala1 = new GaramMasala();
+        masala1.Spice();
+
+        GaramMasala gm = new GaramMasala();
+        gm.Spice();
+        gm.Mix();
+
+
+        System.out.println("biriyani is created");
+
+        Biriyani biriyani = new Biriyani();
+        biriyani.Cook();
+
+        Biriyani biriyani1 = new ChickenBiriyani();
+        biriyani1.Cook();
+
+        ChickenBiriyani chickenBiriyani = new ChickenBiriyani();
+        chickenBiriyani.Cook();
+        chickenBiriyani.Serve();
+
+
+        System.out.println("kebab is created");
+
+        Kebab kebab = new Kebab();
+        kebab.Grill();
+
+        Kebab kebab1 = new SeekhKebab();
+        kebab1.Grill();
+
+        SeekhKebab sk = new SeekhKebab();
+        sk.Grill();
+        sk.Skewer();
+
+
+        System.out.println("chutney is created");
+
+        Chutney chutney = new Chutney();
+        chutney.Grind();
+
+        Chutney chutney1 = new MintChutney();
+        chutney1.Grind();
+
+        MintChutney mc = new MintChutney();
+        mc.Grind();
+        mc.Chill();
+
+
+        System.out.println("badam is created");
+
+        Badam badam = new Badam();
+        badam.Crunch();
+
+        Badam badam1 = new RoastedBadam();
+        badam1.Crunch();
+
+        RoastedBadam rb = new RoastedBadam();
+        rb.Crunch();
+        rb.Roast();
+
+
+        System.out.println("cashew is created");
+
+        Cashew cashew = new Cashew();
+        cashew.Crunch();
+
+        Cashew cashew1 = new SaltedCashew();
+        cashew1.Crunch();
+
+        SaltedCashew sc = new SaltedCashew();
+        sc.Crunch();
+        sc.Salt();
+
+
+        System.out.println("kerala is created");
+
+        Kerala kerala = new Kerala();
+        kerala.Culture();
+
+        Kerala kerala1 = new GodsOwnCountry();
+        kerala1.Culture();
+
+        GodsOwnCountry goc = new GodsOwnCountry();
+        goc.Culture();
+        goc.Tourism();
+
+
+        System.out.println("plastic is created");
+
+        Plastic plastic = new Plastic();
+        plastic.Mold();
+
+        Plastic plastic1 = new RecycledPlastic();
+        plastic1.Mold();
+
+        RecycledPlastic rp = new RecycledPlastic();
+        rp.Mold();
+        rp.Recycle();
+
+
+        System.out.println("wine is created");
+
+        Wine wine = new Wine();
+        wine.Ferment();
+
+        Wine wine1 = new RedWine();
+        wine1.Ferment();
+
+        RedWine rw = new RedWine();
+        rw.Ferment();
+        rw.Aged();
+
+
+        System.out.println("vodka is created");
+
+        Vodka vodka = new Vodka();
+        vodka.Distill();
+
+        Vodka v = new PremiumVodka();
+        v.Distill();
+
+        PremiumVodka pv = new PremiumVodka();
+        pv.Distill();
+        pv.Purify();
+
+
+        System.out.println("cow is created");
+
+        Cow cow = new Cow();
+        cow.Moo();
+
+        Cow cow1 = new DairyCow();
+        cow1.Moo();
+
+        DairyCow dc = new DairyCow();
+        dc.Moo();
+        dc.Milk();
+
+
+        System.out.println("amoeba is created");
+
+        Amoeba amoeba = new Amoeba();
+        amoeba.Reproduce();
+
+        Amoeba a = new BinaryAmoeba();
+        a.Reproduce();
+
+        BinaryAmoeba ba = new BinaryAmoeba();
+        ba.Reproduce();
+        ba.Split();
+
+
+        System.out.println("bacteria is created");
+
+        Bacteria bacteria = new Bacteria();
+        bacteria.Multiply();
+
+        Bacteria bacteria1 = new EColi();
+        bacteria1.Multiply();
+
+        EColi ecoli = new EColi();
+        ecoli.Multiply();
+        ecoli.Infect();
+
+        System.out.println("kangaroo is created");
+
+        System.out.println("virus is created");
+
+        Virus virus = new Virus();
+        virus.Spread();
+
+        Virus virus1 = new FluVirus();
+        virus1.Spread();
+
+        FluVirus fv = new FluVirus();
+        fv.Spread();
+        fv.Mutate();
+
+
+        System.out.println("parrot is created");
+
+        Parrot parrot = new Parrot();
+        parrot.Speak();
+
+        Parrot parrot1 = new TalkingParrot();
+        parrot1.Speak();
+
+        TalkingParrot tp = new TalkingParrot();
+        tp.Speak();
+        tp.Mimic();
+
+
+        System.out.println("temple is created");
+
+        Temple temple = new Temple();
+        temple.Worship();
+
+        Temple temple1 = new GoldenTemple();
+        temple1.Worship();
+
+        GoldenTemple gt = new GoldenTemple();
+        gt.Worship();
+        gt.Shine();
     }
 }
-
-
-
-
-
-
-
-
-
-
