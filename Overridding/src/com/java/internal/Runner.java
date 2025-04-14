@@ -1,13 +1,17 @@
 package com.java.internal;
 
+import com.java.internal.Bike.external8.BikeCheck;
 import com.java.internal.Bike.internal8.Bike;
 import com.java.internal.Bike.internal8.Company;
+import com.java.internal.Car.external5.GarageVault;
 import com.java.internal.Car.internal5.Car;
 import com.java.internal.Car.internal5.Vintage;
 import com.java.internal.Cricket.internal11.Cricket;
 import com.java.internal.Cricket.internal11.Ipl;
+import com.java.internal.Fridge.external70.KitchenCorner;
 import com.java.internal.Fridge.internal70.DoubleDoorFridge;
 import com.java.internal.Fridge.internal70.Fridge;
+import com.java.internal.Fruit.external9.JuiceBar;
 import com.java.internal.Fruit.internal9.Fresh;
 import com.java.internal.Fruit.internal9.Fruit;
 import com.java.internal.Home.internal6.Home;
@@ -22,86 +26,127 @@ import com.java.internal.SolarSystem.internal4.Galaxy;
 import com.java.internal.SolarSystem.internal4.SolarSystem;
 import com.java.internal.Tv.internal10.Remote;
 import com.java.internal.Tv.internal10.Tv;
+import com.java.internal.amoeba.external96.SecondaryAmoeba;
 import com.java.internal.amoeba.internal96.Amoeba;
 import com.java.internal.amoeba.internal96.BinaryAmoeba;
+import com.java.internal.animal.external3.DomesticAnimalHandler;
 import com.java.internal.animal.internal3.Animal;
 import com.java.internal.animal.internal3.Domestic;
+import com.java.internal.bacteria.external97.BacteriaLab;
 import com.java.internal.bacteria.internal97.Bacteria;
 import com.java.internal.bacteria.internal97.EColi;
+import com.java.internal.badam.external89.BadamProcessor;
 import com.java.internal.badam.internal89.Badam;
 import com.java.internal.badam.internal89.RoastedBadam;
+import com.java.internal.bag.external50.BagProcessor;
 import com.java.internal.bag.internal50.Bag;
 import com.java.internal.bag.internal50.SchoolBag;
+import com.java.internal.beach.external33.BeachHandler;
 import com.java.internal.beach.internal33.Beach;
 import com.java.internal.beach.internal33.Goa;
+import com.java.internal.besheet.external69.BedsheetHandler;
 import com.java.internal.besheet.internal69.Bedsheet;
 import com.java.internal.besheet.internal69.CottonSheet;
+import com.java.internal.bird.external75.BirdAction;
 import com.java.internal.bird.internal75.Bird;
 import com.java.internal.bird.internal75.Sparrow;
+import com.java.internal.biriyani.external86.BiriyaniAction;
 import com.java.internal.biriyani.internal86.Biriyani;
 import com.java.internal.biriyani.internal86.ChickenBiriyani;
+import com.java.internal.book.external25.BookAction;
 import com.java.internal.book.internal25.Book;
 import com.java.internal.book.internal25.Novel;
+import com.java.internal.boost.external60.BoostTest;
 import com.java.internal.boost.internal60.Boost;
 import com.java.internal.boost.internal60.EnergyBoost;
+import com.java.internal.bournvita.external61.BournvitaBlend;
 import com.java.internal.bournvita.internal61.Bournvita;
 import com.java.internal.bournvita.internal61.ChocoBournvita;
+import com.java.internal.brinjal.external16.BrinjalFusion;
 import com.java.internal.brinjal.internal16.Brinjal;
 import com.java.internal.brinjal.internal16.PurpleBrinjal;
+import com.java.internal.burger.external45.BurgerCombo;
 import com.java.internal.burger.internal45.Burger;
 import com.java.internal.burger.internal45.VegBurger;
+import com.java.internal.camera.external34.CameraKit;
 import com.java.internal.camera.internal34.Camera;
 import com.java.internal.camera.internal34.DSLR;
+import com.java.internal.captainamerica.external68.ShieldOps;
 import com.java.internal.captainamerica.internal68.CaptainAmerica;
 import com.java.internal.captainamerica.internal68.Falcon;
+import com.java.internal.cashew.external90.NutCracker;
 import com.java.internal.cashew.internal90.Cashew;
 import com.java.internal.cashew.internal90.SaltedCashew;
+import com.java.internal.chair.external72.FurnitureUtility;
 import com.java.internal.chair.internal72.Chair;
 import com.java.internal.chair.internal72.WoodenChair;
+import com.java.internal.chocolate.external17.CocoaLab;
 import com.java.internal.chocolate.internal17.Chocolate;
 import com.java.internal.chocolate.internal17.DarkChocolate;
+import com.java.internal.chutney.external88.SpiceStation;
 import com.java.internal.chutney.internal88.Chutney;
 import com.java.internal.chutney.internal88.MintChutney;
+import com.java.internal.city.external27.UrbanGrowth;
 import com.java.internal.city.internal27.Banglore;
 import com.java.internal.city.internal27.City;
+import com.java.internal.clock.external54.Timekeeper;
 import com.java.internal.clock.internal54.Clock;
 import com.java.internal.clock.internal54.WallClock;
+import com.java.internal.cloud.external20.WeatherStation;
 import com.java.internal.cloud.internal20.Cloud;
 import com.java.internal.cloud.internal20.StormCloud;
+import com.java.internal.country.external32.NationManagement;
 import com.java.internal.country.internal32.Country;
 import com.java.internal.country.internal32.India;
+import com.java.internal.cow.external95.FarmActivities;
 import com.java.internal.cow.internal95.Cow;
 import com.java.internal.cow.internal95.DairyCow;
+import com.java.internal.cycle.external56.CyclingExperience;
 import com.java.internal.cycle.internal56.Cycle;
 import com.java.internal.cycle.internal56.GearCycle;
+import com.java.internal.door.external14.DoorManagement;
 import com.java.internal.door.internal14.Door;
 import com.java.internal.door.internal14.Gate;
+import com.java.internal.dress.external49.DressStyler;
 import com.java.internal.dress.internal49.Dress;
 import com.java.internal.dress.internal49.Frock;
+import com.java.internal.earphone.external59.AudioTuner;
 import com.java.internal.earphone.internal59.BluetoothEarphone;
 import com.java.internal.earphone.internal59.Earphone;
+import com.java.internal.earring.external57.StyleBox;
 import com.java.internal.earring.internal57.Earring;
 import com.java.internal.earring.internal57.StudEarring;
+import com.java.internal.egg.external30.OmeletteMaker;
 import com.java.internal.egg.internal30.ChickenEgg;
 import com.java.internal.egg.internal30.Egg;
+import com.java.internal.flower.external15.GardenExplorer;
 import com.java.internal.flower.internal15.Flower;
 import com.java.internal.flower.internal15.Rose;
+import com.java.internal.frenchfry.external62.SnackTime;
 import com.java.internal.frenchfry.internal62.CrispyFry;
 import com.java.internal.frenchfry.internal62.FrenchFry;
+import com.java.internal.halwa.external84.DessertCorner;
 import com.java.internal.halwa.internal84.CarrotHalwa;
 import com.java.internal.halwa.internal84.Halwa;
+import com.java.internal.hulk.external68.HulkShowdown;
 import com.java.internal.hulk.internal68.Hulk;
 import com.java.internal.hulk.internal68.ProfessorHulk;
+import com.java.internal.insects.external64.InsectShowcase;
 import com.java.internal.insects.internal64.Firefly;
 import com.java.internal.insects.internal64.Insects;
+import com.java.internal.instrument.external29.SoundStudio;
 import com.java.internal.instrument.internal29.Guitar;
 import com.java.internal.instrument.internal29.Instrument;
+import com.java.internal.ironman.external65.SuitLab;
 import com.java.internal.ironman.internal65.Ironman;
 import com.java.internal.ironman.internal65.Mark42;
+import com.java.internal.jalebi.external80.SweetCorner;
 import com.java.internal.jalebi.internal80.HotJalebi;
 import com.java.internal.jalebi.internal80.Jalebi;
+import com.java.internal.jamoon.external79.DessertPlatter;
 import com.java.internal.jamoon.internal79.Jamoon;
 import com.java.internal.jamoon.internal79.SweetJamoon;
+import com.java.internal.kajal.external48.MakeupBox;
 import com.java.internal.kajal.internal48.BlackKajal;
 import com.java.internal.kajal.internal48.Kajal;
 import com.java.internal.kebeb.internal87.Kebab;
@@ -1411,5 +1456,606 @@ public class Runner {
         GoldenTemple gt = new GoldenTemple();
         gt.Worship();
         gt.Shine();
+
+
+
+
+        /*..........*/
+
+
+        System.out.println("\n. Amoeba");
+        Amoeba amoeba1=new Amoeba();
+        amoeba1.Reproduce();
+
+        Amoeba amoeba2=new BinaryAmoeba();
+        amoeba2.Reproduce();
+
+        BinaryAmoeba binaryAmoeba=new BinaryAmoeba();
+        binaryAmoeba.Reproduce();
+        binaryAmoeba.Split();
+
+        System.out.println("using amoeba");
+        SecondaryAmoeba secondaryAmoeba=new SecondaryAmoeba();
+        secondaryAmoeba.process(amoeba1);
+        secondaryAmoeba.process(amoeba2);
+        secondaryAmoeba.process(binaryAmoeba);
+
+
+
+
+        DomesticAnimalHandler handler = new DomesticAnimalHandler();
+
+        Animal animal1 = new Animal();
+        Animal animal2 = new Domestic();
+
+        handler.handle(animal1);
+        handler.handle(animal2);
+        handler.handle(null);
+
+
+
+        BacteriaLab lab = new BacteriaLab();
+
+        Bacteria b1 = new Bacteria();
+        Bacteria b2 = new EColi();
+        Bacteria b3 = null;
+
+        lab.test(b1);
+        lab.test(b2);
+        lab.test(b3);
+
+
+
+
+        BadamProcessor processor = new BadamProcessor();
+
+        Badam badam2 = new Badam();
+        Badam badam3 = new RoastedBadam();
+        Badam badam4= null;
+
+        processor.process(badam2);
+        processor.process(badam3);
+        processor.process(badam4);
+
+
+
+        BagProcessor processor1 = new BagProcessor();
+
+        Bag bag2 = new Bag();
+        Bag bag3 = new SchoolBag();
+        Bag bag4 = null;
+
+        processor1.process(bag2);
+        processor1.process(bag3);
+        processor1.process(bag4);
+
+
+
+        BeachHandler handler1 = new BeachHandler();
+
+        Beach beach2 = new Beach();
+        Beach beach3 = new Goa();
+        Beach beach4 = null;
+
+        handler1.handle(beach2);
+        handler1.handle(beach3);
+        handler1.handle(beach4);
+
+
+
+
+
+        BedsheetHandler bedsheetHandler= new BedsheetHandler();
+
+        Bedsheet bedsheet1 = new Bedsheet();
+        Bedsheet bedsheet2 = new CottonSheet();
+        Bedsheet bedsheet3 = null;
+
+        bedsheetHandler.handle(bedsheet1);
+        bedsheetHandler.handle(bedsheet2);
+        bedsheetHandler.handle(bedsheet3);
+
+
+
+
+
+        BikeCheck bikeCheck = new BikeCheck();
+
+        Bike bike1 = new Bike();
+        Bike bike2 = new Company();
+        Bike bike3 = null;
+
+        bikeCheck.check(bike1);
+        bikeCheck.check(bike2);
+        bikeCheck.check(bike3);
+
+
+
+        BirdAction birdAction = new BirdAction();
+
+        Bird bird2 = new Bird();
+        Bird bird3 = new Sparrow();
+        Bird bird4 = null;
+
+        birdAction.performAction(bird2);
+        birdAction.performAction(bird3);
+        birdAction.performAction(bird4);
+
+
+
+        BiriyaniAction biriyaniAction = new BiriyaniAction();
+
+        Biriyani biriyani2 = new Biriyani();
+        Biriyani biriyani3 = new ChickenBiriyani();
+        Biriyani biriyani4 = null;
+
+        biriyaniAction.performAction(biriyani2);
+        biriyaniAction.performAction(biriyani3);
+        biriyaniAction.performAction(biriyani4);
+
+
+
+
+        BookAction bookAction = new BookAction();
+
+        Book bb = new Book();
+        Book bb1 = new Novel();
+        Book bbb2 = null;
+
+        bookAction.executeAction(bb);
+        bookAction.executeAction(bb1);
+        bookAction.executeAction(bbb2);
+
+
+
+
+        BoostTest boostTest = new BoostTest();
+
+        Boost boost2 = new Boost();
+        Boost boost3 = new EnergyBoost();
+        Boost boost4 = null;
+
+        boostTest.testBoost(boost2);
+        boostTest.testBoost(boost3);
+        boostTest.testBoost(boost4);
+
+
+
+        BournvitaBlend blend = new BournvitaBlend();
+
+        Bournvita bourn1 = new Bournvita();
+        Bournvita bourn2 = new ChocoBournvita();
+        Bournvita bourn3= null;
+
+        blend.perform(bourn1);
+        blend.perform(bourn2);
+        blend.perform(bourn3);
+
+
+
+
+        BrinjalFusion fusionChef = new BrinjalFusion();
+
+        Brinjal classicBrinjal = new Brinjal();
+        Brinjal heirloomBrinjal = new PurpleBrinjal();
+        Brinjal unknownBrinjal = null;
+
+        fusionChef.executeFusion(classicBrinjal);
+        fusionChef.executeFusion(heirloomBrinjal);
+        fusionChef.executeFusion(unknownBrinjal);
+
+
+
+
+        BurgerCombo comboBuilder = new BurgerCombo();
+
+        Burger basicBurger = new Burger();
+        Burger healthyChoice = new VegBurger();
+        Burger missingOrder = null;
+
+        comboBuilder.prepareMeal(basicBurger);
+        comboBuilder.prepareMeal(healthyChoice);
+        comboBuilder.prepareMeal(missingOrder);
+
+
+
+
+
+        CameraKit kitMaster = new CameraKit();
+
+        Camera pointAndShoot = new Camera();
+        Camera professionalGear = new DSLR();
+        Camera missingDevice = null;
+
+        kitMaster.operate(pointAndShoot);
+        kitMaster.operate(professionalGear);
+        kitMaster.operate(missingDevice);
+
+
+
+
+        ShieldOps missionController = new ShieldOps();
+
+        CaptainAmerica originalHero = new CaptainAmerica();
+        CaptainAmerica newAvenger = new Falcon();
+        CaptainAmerica unknownEntity = null;
+
+        missionController.activateDefense(originalHero);
+        missionController.activateDefense(newAvenger);
+        missionController.activateDefense(unknownEntity);
+
+
+
+
+
+        GarageVault vaultAccess = new GarageVault();
+
+        Car modernCar = new Car();
+        Car antiqueCar = new Vintage();
+        Car noCar = null;
+
+        vaultAccess.inspectVehicle(modernCar);
+        vaultAccess.inspectVehicle(antiqueCar);
+        vaultAccess.inspectVehicle(noCar);
+
+
+
+
+        NutCracker nutInspector = new NutCracker();
+
+        Cashew plainCashew = new Cashew();
+        Cashew seasonedCashew = new SaltedCashew();
+        Cashew missingCashew = null;
+
+        nutInspector.flavorTest(plainCashew);
+        nutInspector.flavorTest(seasonedCashew);
+        nutInspector.flavorTest(missingCashew);
+
+
+
+
+        FurnitureUtility displayCheck = new FurnitureUtility();
+
+        Chair simpleChair = new Chair();
+        Chair craftedChair = new WoodenChair();
+        Chair nullChair = null;
+
+        displayCheck.testComfort(simpleChair);
+        displayCheck.testComfort(craftedChair);
+        displayCheck.testComfort(nullChair);
+
+
+
+
+
+        CocoaLab taster = new CocoaLab();
+
+        Chocolate milkChoco = new Chocolate();
+        Chocolate richChoco = new DarkChocolate();
+        Chocolate absentChoco = null;
+
+        taster.flavorAnalysis(milkChoco);
+        taster.flavorAnalysis(richChoco);
+        taster.flavorAnalysis(absentChoco);
+
+
+
+
+        SpiceStation grinder = new SpiceStation();
+
+        Chutney regularChutney = new Chutney();
+        Chutney greenChutney = new MintChutney();
+        Chutney noChutney = null;
+
+        grinder.serveFresh(regularChutney);
+        grinder.serveFresh(greenChutney);
+        grinder.serveFresh(noChutney);
+
+
+
+
+        UrbanGrowth progress = new UrbanGrowth();
+
+        City globalCity = new City();
+        City techHub = new Banglore();
+        City nullCity = null;
+
+        progress.cityProgress(globalCity);
+        progress.cityProgress(techHub);
+        progress.cityProgress(nullCity);
+
+
+
+
+        Timekeeper keeper = new Timekeeper();
+
+        Clock basicClock = new Clock();
+        Clock hangingClock = new WallClock();
+        Clock noClock = null;
+
+        keeper.checkTick(basicClock);
+        keeper.checkTick(hangingClock);
+        keeper.checkTick(noClock);
+
+
+        WeatherStation station = new WeatherStation();
+
+        Cloud simpleCloud = new Cloud();
+        Cloud stormyCloud = new StormCloud();
+        Cloud nullCloud = null;
+
+        station.forecastWeather(simpleCloud);
+        station.forecastWeather(stormyCloud);
+        station.forecastWeather(nullCloud);
+
+
+
+
+        NationManagement leader = new NationManagement();
+
+        Country globalCountry = new Country();
+        Country indianCountry = new India();
+        Country nullCountry = null;
+
+        leader.manageGovernance(globalCountry);
+        leader.manageGovernance(indianCountry);
+        leader.manageGovernance(nullCountry);
+
+
+
+
+
+        FarmActivities activities = new FarmActivities();
+
+        Cow regularCow = new Cow();
+        Cow dairyCow = new DairyCow();
+        Cow noCow = null;
+
+        activities.performCowActivities(regularCow);
+        activities.performCowActivities(dairyCow);
+        activities.performCowActivities(noCow);
+
+
+
+
+
+        com.java.internal.cricket.external11.CricketLeague league = new com.java.internal.cricket.external11.CricketLeague();
+
+        Cricket regularMatch = new Cricket();
+        Cricket iplMatch = new Ipl();
+        Cricket noMatch = null;
+
+        league.managePlayer(regularMatch);
+        league.managePlayer(iplMatch);
+        league.managePlayer(noMatch);
+
+
+
+        CyclingExperience experience = new CyclingExperience();
+
+        Cycle regularCycle = new Cycle();
+        Cycle gearCycle = new GearCycle();
+        Cycle noCycle = null;
+
+        experience.startRide(regularCycle);
+        experience.startRide(gearCycle);
+        experience.startRide(noCycle);
+
+
+        DoorManagement doorManagement = new DoorManagement();
+
+        Door simpleDoor = new Door();
+        Door gateDoor = new Gate();
+        Door noDoor = null;
+
+        doorManagement.manageDoor(simpleDoor);
+        doorManagement.manageDoor(gateDoor);
+        doorManagement.manageDoor(noDoor);
+
+
+
+
+        DressStyler dresser = new DressStyler();
+
+        Dress regularDress = new Dress();
+        Dress stylishFrock = new Frock();
+        Dress nullDress = null;
+
+        dresser.styleDress(regularDress);
+        dresser.styleDress(stylishFrock);
+        dresser.styleDress(nullDress);
+
+
+
+        AudioTuner tuner = new AudioTuner();
+
+        Earphone regular = new Earphone();
+        Earphone wireless = new BluetoothEarphone();
+        Earphone none = null;
+
+        tuner.tune(regular);
+        tuner.tune(wireless);
+        tuner.tune(none);
+
+
+        StyleBox box = new StyleBox();
+
+        Earring plain = new Earring();
+        Earring gem = new StudEarring();
+        Earring empty = null;
+
+        box.display(plain);
+        box.display(gem);
+        box.display(empty);
+
+
+
+
+        OmeletteMaker chef = new OmeletteMaker();
+
+        Egg genericEgg = new Egg();
+        Egg henEgg = new ChickenEgg();
+
+        chef.crack(genericEgg);
+        chef.crack(henEgg);
+
+
+
+        GardenExplorer botany = new GardenExplorer();
+
+        Flower genericFlower = new Flower();
+        Flower redRose = new Rose();
+
+
+
+        SnackTime tray = new SnackTime();
+
+        FrenchFry basicFry = new FrenchFry();
+        FrenchFry crunchyFry = new CrispyFry();
+
+        tray.serveFries(basicFry);
+        System.out.println("------");
+        tray.serveFries(crunchyFry);
+
+
+
+
+        KitchenCorner corner = new KitchenCorner();
+
+        Fridge basic = new Fridge();
+        Fridge luxury = new DoubleDoorFridge();
+        Fridge non = null;
+
+        corner.showcase(basic);
+        System.out.println("------------");
+        corner.showcase(luxury);
+        System.out.println("------------");
+        corner.showcase(non);
+
+
+
+        JuiceBar bar = new JuiceBar();
+
+        Fruit normal = new Fruit();
+        Fruit seasonal = new Fresh();
+        Fruit none1 = null;
+
+        bar.display(normal);
+        System.out.println("------------");
+        bar.display(seasonal);
+        System.out.println("------------");
+        bar.display(none1);
+
+
+
+        DessertCorner corner1 = new DessertCorner();
+
+        Halwa basc = new Halwa();
+        Halwa special = new CarrotHalwa();
+        Halwa nne = null;
+
+        corner1.serve(basc);
+        System.out.println("------------");
+        corner1.serve(special);
+        System.out.println("------------");
+        corner1.serve(nne);
+
+
+
+
+        HulkShowdown showdown = new HulkShowdown();
+
+        Hulk hulk1 = new Hulk();
+        Hulk professorHulk = new ProfessorHulk();
+        Hulk noHulk = null;
+
+
+/*
+        IceCreamShowcase showcase = new IceCreamShowcase();
+
+        Icecream basicIceCream = new Icecream();
+        Icecream itemIceCream = new Items();
+        Icecream noIceCream = null;
+
+        showcase.display(basicIceCream);
+        System.out.println("------------");
+        showcase.display(itemIceCream);
+        System.out.println("------------");
+        showcase.display(noIceCream);
+
+*/
+        InsectShowcase showcase = new InsectShowcase();
+
+        Insects genericInsect = new Insects();
+        Insects fireflyInsect = new Firefly();
+        Insects noInsect = null;
+
+        showcase.display(genericInsect);
+        System.out.println("------------");
+        showcase.display(fireflyInsect);
+        System.out.println("------------");
+        showcase.display(noInsect);
+
+
+
+
+        SoundStudio studio = new SoundStudio();
+
+        Instrument basi = new Instrument();
+        Instrument electric = new Guitar();
+        Instrument silence = null;
+
+        studio.showcase(basi);
+        System.out.println("------------");
+        studio.showcase(electric);
+        System.out.println("------------");
+        studio.showcase(silence);
+
+
+
+        SuitLab lab1 = new SuitLab();
+
+        Ironman classic = new Ironman();
+        Ironman advanced = new Mark42();
+        Ironman offline = null;
+
+        lab1.testSuit(classic);
+        System.out.println("-----------");
+        lab1.testSuit(advanced);
+        System.out.println("-----------");
+        lab1.testSuit(offline);
+
+
+
+        SweetCorner cornerr = new SweetCorner();
+
+        Jalebi plainn = new Jalebi();
+        Jalebi spicy = new HotJalebi();
+        Jalebi emptyy = null;
+
+        cornerr.serveSweet(plainn);
+        System.out.println("-----------");
+        cornerr.serveSweet(spicy);
+        System.out.println("-----------");
+        cornerr.serveSweet(emptyy);
+
+
+        DessertPlatter platter = new DessertPlatter();
+
+        Jamoon plain1 = new Jamoon();
+        Jamoon sugary = new SweetJamoon();
+        Jamoon nonee = null;
+
+
+        MakeupBox box1 = new MakeupBox();
+
+        Kajal basicc = new Kajal();
+        Kajal intense = new BlackKajal();
+        Kajal emptyyy = null;
+
+
+
+
     }
+
 }
