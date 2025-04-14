@@ -207,10 +207,13 @@ import com.java.internal.radio.internal77.FMRadio;
 import com.java.internal.radio.internal77.Radio;
 import com.java.internal.rasgulla.internal81.Rasgulla;
 import com.java.internal.rasgulla.internal81.SoftRasgulla;
+import com.java.internal.river.external19.SacredStreamRunner;
 import com.java.internal.river.internal19.Ganga;
 import com.java.internal.river.internal19.River;
+import com.java.internal.robot.external23.MachineMindRunner;
 import com.java.internal.robot.internal23.Android;
 import com.java.internal.robot.internal23.Robot;
+import com.java.internal.rubberband.external41.ElasticPlayRunner;
 import com.java.internal.rubberband.internal41.ColorBand;
 import com.java.internal.rubberband.internal41.Rubberband;
 import com.java.internal.seriel.internal52.DramaSeriel;
@@ -2240,8 +2243,89 @@ public class Runner {
 
 
 
+        SoundSystemRunner runner = new SoundSystemRunner();
+
+        Radio basic = new Radio();
+        Radio advanced = new FMRadio();
+        Radio silent = null;
+
+
+
+        SweetCravingsRunner runner = new SweetCravingsRunner();
+
+        Rasgulla base = new Rasgulla();
+        Rasgulla soft = new SoftRasgulla();
+        Rasgulla empty = null;
+
+
+        SacredStreamRunner runner = new SacredStreamRunner();
+
+        River generic = new River();
+        River holy = new Ganga();
+        River none = null;
+
+
+
+        MachineMindRunner runner = new MachineMindRunner();
+
+        Robot generalBot = new Robot();
+        Robot smartBot = new Android();
+        Robot offline = null;
+
+
+
+        ElasticPlayRunner runner = new ElasticPlayRunner();
+
+        Rubberband basicBand = new Rubberband();
+        Rubberband colorfulBand = new ColorBand();
+        Rubberband noBand = null;
+
+
+
+        DramaStreamRunner runner = new DramaStreamRunner();
+
+        Seriel basicSeriel = new Seriel();
+        Seriel dramaSeriel = new DramaSeriel();
+        Seriel noSeriel = null;
+
+
+
+        SkinCareRunner runner = new SkinCareRunner();
+
+        Skin baseSkin = new Skin();
+        Skin hydratedSkin = new MoistSkin();
+        Skin noSkin = null;
+
+        SlipperTryRunner runner = new SlipperTryRunner();
+
+        Slipper baseSlipper = new Slipper();
+        Slipper rubberySlipper = new RubberSlipper();
+        Slipper noSlipper = null;
+
+
+
+        UniverseRunner runner = new UniverseRunner();
+
+        SolarSystem system = new SolarSystem();
+        SolarSystem milkyWay = new Galaxy();
+        SolarSystem noSystem = null;
+
+
+        SpiderVerseRunner runner = new SpiderVerseRunner();
+
+        Spiderman peter = new Spiderman();
+        Spiderman miles = new MilesMorales();
+        Spiderman noSpider = null;
+
+
+
+        StoneSurfaceRunner runner = new StoneSurfaceRunner();
+
+        Stone plainStone = new Stone();
+        Stone graniteStone = new Granite();
+        Stone noStone = null;
+
+
     }
-
-
 
 }
