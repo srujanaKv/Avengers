@@ -18,8 +18,10 @@ import com.java.internal.Home.internal6.Home;
 import com.java.internal.Home.internal6.Member;
 import com.java.internal.Icecream.internal1.Icecream;
 import com.java.internal.Icecream.internal1.Items;
+import com.java.internal.Laddu.external82.SweetMaker;
 import com.java.internal.Laddu.internal82.BesanLaddu;
 import com.java.internal.Laddu.internal82.Laddu;
+import com.java.internal.Mobile.external7.MobileTester;
 import com.java.internal.Mobile.internal7.Brand;
 import com.java.internal.Mobile.internal7.Mobile;
 import com.java.internal.SolarSystem.internal4.Galaxy;
@@ -149,38 +151,50 @@ import com.java.internal.jamoon.internal79.SweetJamoon;
 import com.java.internal.kajal.external48.MakeupBox;
 import com.java.internal.kajal.internal48.BlackKajal;
 import com.java.internal.kajal.internal48.Kajal;
+import com.java.internal.kebeb.external87.KebabBox;
 import com.java.internal.kebeb.internal87.Kebab;
 import com.java.internal.kebeb.internal87.SeekhKebab;
 import com.java.internal.kerala.internal91.GodsOwnCountry;
 import com.java.internal.kerala.internal91.Kerala;
+import com.java.internal.kheer.external83.DessertChef;
 import com.java.internal.kheer.internal83.Kheer;
 import com.java.internal.kheer.internal83.RiceKheer;
+import com.java.internal.lipstick.external47.MakeupPouch;
 import com.java.internal.lipstick.internal47.Lipstick;
 import com.java.internal.lipstick.internal47.Matte;
+import com.java.internal.machine.external28.ControlPanel;
 import com.java.internal.machine.internal28.Machine;
 import com.java.internal.machine.internal28.RobotMachine;
 import com.java.internal.masala.internal85.GaramMasala;
 import com.java.internal.masala.internal85.Masala;
 import com.java.internal.metro.internal13.Metro;
 import com.java.internal.metro.internal13.Train;
+import com.java.internal.mountain.external24.MountainRunner;
 import com.java.internal.mountain.internal24.Everest;
 import com.java.internal.mountain.internal24.Mountain;
+import com.java.internal.movie.external51.MovieRunner;
 import com.java.internal.movie.internal51.ActionMovie;
 import com.java.internal.movie.internal51.Movie;
+import com.java.internal.mushroom.external39.MushroomRunner;
 import com.java.internal.mushroom.internal39.ButtonMushroom;
 import com.java.internal.mushroom.internal39.Mushroom;
+import com.java.internal.music.external23.MusicRunner;
 import com.java.internal.music.internal23.Melody;
 import com.java.internal.music.internal23.Music;
+import com.java.internal.nailpolish.external53.NailPolishRunner;
 import com.java.internal.nailpolish.internal53.GlitterPolish;
 import com.java.internal.nailpolish.internal53.Nailpolish;
+import com.java.internal.ocean.external22.OceanRunner;
 import com.java.internal.ocean.internal22.Ocean;
 import com.java.internal.ocean.internal22.Pacific;
 import com.java.internal.oven.internal37.Microwave;
 import com.java.internal.oven.internal37.Oven;
+import com.java.internal.paint.external58.PaintRunner;
 import com.java.internal.paint.internal58.Paint;
 import com.java.internal.paint.internal58.WallPaint;
 import com.java.internal.panipuri.internal43.Panipuri;
 import com.java.internal.panipuri.internal43.SpicyPuri;
+import com.java.internal.parrot.external99.ParrotRunner;
 import com.java.internal.parrot.internal99.Parrot;
 import com.java.internal.parrot.internal99.TalkingParrot;
 import com.java.internal.pizza.internal44.CheesePizza;
@@ -2056,6 +2070,178 @@ public class Runner {
 
 
 
+        KebabBox bx = new KebabBox();
+
+        Kebab plain = new Kebab();
+        Kebab spicyy = new SeekhKebab();
+        Kebab nonee = null;
+     /*
+        bx.serve(plain);
+        System.out.println("-----------");
+        bx.serve(spicy);
+        System.out.println("-----------");
+        bx.serve(none);
+        */
+
+
+        TravelGuide guide = new TravelGuide();
+
+        Kerala original = new Kerala();
+        Kerala deluxe = new GodsOwnCountry();
+        Kerala mystery = null;
+
+
+
+        DessertChef chef = new DessertChef();
+
+        Kheer plain = new Kheer();
+        Kheer rich = new RiceKheer();
+        Kheer none = null;
+
+
+        SweetMaker maker = new SweetMaker();
+
+        Laddu base = new Laddu();
+        Laddu besan = new BesanLaddu();
+        Laddu empty = null;
+
+
+        MakeupPouch pouch = new MakeupPouch();
+
+        Lipstick basic = new Lipstick();
+        Lipstick bold = new Matte();
+        Lipstick empty = null;
+
+
+        ControlPanel panel = new ControlPanel();
+
+        Machine regular = new Machine();
+        Machine bot = new RobotMachine();
+        Machine none = null;
+
+
+        KitchenShelf shelf = new KitchenShelf();
+
+        Masala basic = new Masala();
+        Masala garam = new GaramMasala();
+        Masala none = null;
+
+
+        RailRunner runner = new RailRunner();
+
+        Metro normal = new Metro();
+        Metro express = new Train();
+        Metro empty = null;
+
+
+        MobileTester tester = new MobileTester();
+
+        Mobile basic = new Mobile();
+        Mobile advanced = new Brand();
+        Mobile none = null;
+
+
+
+
+        MountainRunner runner = new MountainRunner();
+
+        Mountain plainMountain = new Mountain();
+        Mountain peak = new Everest();
+        Mountain none = null;
+
+
+
+
+        MovieRunner runner = new MovieRunner();
+
+        Movie regularMovie = new Movie();
+        Movie action = new ActionMovie();
+        Movie none = null;
+
+
+
+        MushroomRunner runner = new MushroomRunner();
+
+        Mushroom regularMushroom = new Mushroom();
+        Mushroom buttonMushroom = new ButtonMushroom();
+        Mushroom none = null;
+
+
+
+        MusicRunner runner = new MusicRunner();
+
+        Music regularMusic = new Music();
+        Music melodyMusic = new Melody();
+        Music none = null;
+
+
+
+
+        NailPolishRunner runner = new NailPolishRunner();
+
+        Nailpolish regularPolish = new Nailpolish();
+        Nailpolish glitterPolish = new GlitterPolish();
+        Nailpolish none = null;
+
+
+
+
+        OceanRunner runner = new OceanRunner();
+
+        Ocean regularOcean = new Ocean();
+        Ocean pacificOcean = new Pacific();
+        Ocean none = null;
+
+
+
+        OvenRunner runner = new OvenRunner();
+
+        Oven regularOven = new Oven();
+        Oven microwaveOven = new Microwave();
+        Oven none = null;
+
+
+
+        PaintRunner runner = new PaintRunner();
+
+        Paint regularPaint = new Paint();
+        Paint wallPaint = new WallPaint();
+        Paint none = null;
+
+
+        PanipuriRunner runner = new PanipuriRunner();
+
+        Panipuri regularPuri = new Panipuri();
+        Panipuri spicyPuri = new SpicyPuri();
+        Panipuri none = null;
+
+
+
+        ParrotRunner runner = new ParrotRunner();
+
+        Parrot regularParrot = new Parrot();
+        Parrot talkingParrot = new TalkingParrot();
+        Parrot none = null;
+
+
+
+        PizzaRunner runner = new PizzaRunner();
+
+        Pizza regularPizza = new Pizza();
+        Pizza cheesePizza = new CheesePizza();
+        Pizza none = null;
+
+
+        PlasticRunner runner = new PlasticRunner();
+
+        Plastic regularPlastic = new Plastic();
+        Plastic recycledPlastic = new RecycledPlastic();
+        Plastic none = null;
+
+
+
     }
+
+
 
 }
