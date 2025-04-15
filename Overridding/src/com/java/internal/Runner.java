@@ -24,6 +24,7 @@ import com.java.internal.Laddu.internal82.Laddu;
 import com.java.internal.Mobile.external7.MobileTester;
 import com.java.internal.Mobile.internal7.Brand;
 import com.java.internal.Mobile.internal7.Mobile;
+import com.java.internal.SolarSystem.external4.UniverseRunner;
 import com.java.internal.SolarSystem.internal4.Galaxy;
 import com.java.internal.SolarSystem.internal4.SolarSystem;
 import com.java.internal.Tv.internal10.Remote;
@@ -222,16 +223,21 @@ import com.java.internal.skin.internal46.MoistSkin;
 import com.java.internal.skin.internal46.Skin;
 import com.java.internal.slipper.internal40.RubberSlipper;
 import com.java.internal.slipper.internal40.Slipper;
+import com.java.internal.spiderman.external66.SpiderVerseRunner;
 import com.java.internal.spiderman.internal66.MilesMorales;
 import com.java.internal.spiderman.internal66.Spiderman;
+import com.java.internal.stone.external21.StoneSurfaceRunner;
 import com.java.internal.stone.internal21.Granite;
 import com.java.internal.stone.internal21.Stone;
+import com.java.internal.stove.external38.FlameControlRunner;
 import com.java.internal.stove.internal38.GasStove;
 import com.java.internal.stove.internal38.Stove;
+import com.java.internal.sun.external12.SolarGlowRunner;
 import com.java.internal.sun.internal12.Light;
 import com.java.internal.sun.internal12.Sun;
 import com.java.internal.sunflower.internal78.Sunflower;
 import com.java.internal.sunflower.internal78.YellowSunflower;
+import com.java.internal.sweetcorn.external42.CornRoastRunner;
 import com.java.internal.sweetcorn.internal42.MasalaCorn;
 import com.java.internal.sweetcorn.internal42.Sweetcorn;
 import com.java.internal.telescope.internal35.SpaceScope;
@@ -2325,6 +2331,37 @@ public class Runner {
         Stone graniteStone = new Granite();
         Stone noStone = null;
 
+
+
+
+        FlameControlRunner runner = new FlameControlRunner();
+
+        Stove oldStove = new Stove();
+        Stove modernStove = new GasStove();
+        Stove noStove = null;
+
+
+
+        SolarGlowRunner runner = new SolarGlowRunner();
+
+        Sun naturalSun = new Sun();
+        Sun glowingLight = new Light();
+        Sun noSun = null;
+
+
+
+        SunshineBloomRunner runner = new SunshineBloomRunner();
+
+        Sunflower baseSunflower = new Sunflower();
+        Sunflower brightYellow = new YellowSunflower();
+        Sunflower none = null;
+
+
+        CornRoastRunner runner = new CornRoastRunner();
+
+        Sweetcorn plainCorn = new Sweetcorn();
+        Sweetcorn spicyCorn = new MasalaCorn();
+        Sweetcorn noCorn = null;
 
     }
 
