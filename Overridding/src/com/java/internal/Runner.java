@@ -1487,23 +1487,21 @@ public class Runner {
 
 
         System.out.println("\n. Amoeba");
-        Amoeba amoeba1=new Amoeba();
+        Amoeba amoeba1 = new Amoeba();
         amoeba1.Reproduce();
 
-        Amoeba amoeba2=new BinaryAmoeba();
+        Amoeba amoeba2 = new BinaryAmoeba();
         amoeba2.Reproduce();
 
-        BinaryAmoeba binaryAmoeba=new BinaryAmoeba();
+        BinaryAmoeba binaryAmoeba = new BinaryAmoeba();
         binaryAmoeba.Reproduce();
         binaryAmoeba.Split();
 
         System.out.println("using amoeba");
-        SecondaryAmoeba secondaryAmoeba=new SecondaryAmoeba();
+        SecondaryAmoeba secondaryAmoeba = new SecondaryAmoeba();
         secondaryAmoeba.process(amoeba1);
         secondaryAmoeba.process(amoeba2);
         secondaryAmoeba.process(binaryAmoeba);
-
-
 
 
         DomesticAnimalHandler handler = new DomesticAnimalHandler();
@@ -1514,7 +1512,6 @@ public class Runner {
         handler.handle(animal1);
         handler.handle(animal2);
         handler.handle(null);
-
 
 
         BacteriaLab lab = new BacteriaLab();
@@ -1528,18 +1525,15 @@ public class Runner {
         lab.test(b3);
 
 
-
-
         BadamProcessor processor = new BadamProcessor();
 
         Badam badam2 = new Badam();
         Badam badam3 = new RoastedBadam();
-        Badam badam4= null;
+        Badam badam4 = null;
 
         processor.process(badam2);
         processor.process(badam3);
         processor.process(badam4);
-
 
 
         BagProcessor processor1 = new BagProcessor();
@@ -1553,7 +1547,6 @@ public class Runner {
         processor1.process(bag4);
 
 
-
         BeachHandler handler1 = new BeachHandler();
 
         Beach beach2 = new Beach();
@@ -1565,10 +1558,7 @@ public class Runner {
         handler1.handle(beach4);
 
 
-
-
-
-        BedsheetHandler bedsheetHandler= new BedsheetHandler();
+        BedsheetHandler bedsheetHandler = new BedsheetHandler();
 
         Bedsheet bedsheet1 = new Bedsheet();
         Bedsheet bedsheet2 = new CottonSheet();
@@ -1577,9 +1567,6 @@ public class Runner {
         bedsheetHandler.handle(bedsheet1);
         bedsheetHandler.handle(bedsheet2);
         bedsheetHandler.handle(bedsheet3);
-
-
-
 
 
         BikeCheck bikeCheck = new BikeCheck();
@@ -1593,7 +1580,6 @@ public class Runner {
         bikeCheck.check(bike3);
 
 
-
         BirdAction birdAction = new BirdAction();
 
         Bird bird2 = new Bird();
@@ -1603,7 +1589,6 @@ public class Runner {
         birdAction.performAction(bird2);
         birdAction.performAction(bird3);
         birdAction.performAction(bird4);
-
 
 
         BiriyaniAction biriyaniAction = new BiriyaniAction();
@@ -1617,8 +1602,6 @@ public class Runner {
         biriyaniAction.performAction(biriyani4);
 
 
-
-
         BookAction bookAction = new BookAction();
 
         Book bb = new Book();
@@ -1628,8 +1611,6 @@ public class Runner {
         bookAction.executeAction(bb);
         bookAction.executeAction(bb1);
         bookAction.executeAction(bbb2);
-
-
 
 
         BoostTest boostTest = new BoostTest();
@@ -1643,18 +1624,15 @@ public class Runner {
         boostTest.testBoost(boost4);
 
 
-
         BournvitaBlend blend = new BournvitaBlend();
 
         Bournvita bourn1 = new Bournvita();
         Bournvita bourn2 = new ChocoBournvita();
-        Bournvita bourn3= null;
+        Bournvita bourn3 = null;
 
         blend.perform(bourn1);
         blend.perform(bourn2);
         blend.perform(bourn3);
-
-
 
 
         BrinjalFusion fusionChef = new BrinjalFusion();
@@ -1668,8 +1646,6 @@ public class Runner {
         fusionChef.executeFusion(unknownBrinjal);
 
 
-
-
         BurgerCombo comboBuilder = new BurgerCombo();
 
         Burger basicBurger = new Burger();
@@ -1679,9 +1655,6 @@ public class Runner {
         comboBuilder.prepareMeal(basicBurger);
         comboBuilder.prepareMeal(healthyChoice);
         comboBuilder.prepareMeal(missingOrder);
-
-
-
 
 
         CameraKit kitMaster = new CameraKit();
@@ -1695,8 +1668,6 @@ public class Runner {
         kitMaster.operate(missingDevice);
 
 
-
-
         ShieldOps missionController = new ShieldOps();
 
         CaptainAmerica originalHero = new CaptainAmerica();
@@ -1706,9 +1677,6 @@ public class Runner {
         missionController.activateDefense(originalHero);
         missionController.activateDefense(newAvenger);
         missionController.activateDefense(unknownEntity);
-
-
-
 
 
         GarageVault vaultAccess = new GarageVault();
@@ -1722,8 +1690,6 @@ public class Runner {
         vaultAccess.inspectVehicle(noCar);
 
 
-
-
         NutCracker nutInspector = new NutCracker();
 
         Cashew plainCashew = new Cashew();
@@ -1733,8 +1699,6 @@ public class Runner {
         nutInspector.flavorTest(plainCashew);
         nutInspector.flavorTest(seasonedCashew);
         nutInspector.flavorTest(missingCashew);
-
-
 
 
         FurnitureUtility displayCheck = new FurnitureUtility();
@@ -1748,9 +1712,6 @@ public class Runner {
         displayCheck.testComfort(nullChair);
 
 
-
-
-
         CocoaLab taster = new CocoaLab();
 
         Chocolate milkChoco = new Chocolate();
@@ -1760,8 +1721,6 @@ public class Runner {
         taster.flavorAnalysis(milkChoco);
         taster.flavorAnalysis(richChoco);
         taster.flavorAnalysis(absentChoco);
-
-
 
 
         SpiceStation grinder = new SpiceStation();
@@ -1775,8 +1734,6 @@ public class Runner {
         grinder.serveFresh(noChutney);
 
 
-
-
         UrbanGrowth progress = new UrbanGrowth();
 
         City globalCity = new City();
@@ -1786,8 +1743,6 @@ public class Runner {
         progress.cityProgress(globalCity);
         progress.cityProgress(techHub);
         progress.cityProgress(nullCity);
-
-
 
 
         Timekeeper keeper = new Timekeeper();
@@ -1812,8 +1767,6 @@ public class Runner {
         station.forecastWeather(nullCloud);
 
 
-
-
         NationManagement leader = new NationManagement();
 
         Country globalCountry = new Country();
@@ -1823,9 +1776,6 @@ public class Runner {
         leader.manageGovernance(globalCountry);
         leader.manageGovernance(indianCountry);
         leader.manageGovernance(nullCountry);
-
-
-
 
 
         FarmActivities activities = new FarmActivities();
@@ -1839,9 +1789,6 @@ public class Runner {
         activities.performCowActivities(noCow);
 
 
-
-
-
         com.java.internal.cricket.external11.CricketLeague league = new com.java.internal.cricket.external11.CricketLeague();
 
         Cricket regularMatch = new Cricket();
@@ -1851,7 +1798,6 @@ public class Runner {
         league.managePlayer(regularMatch);
         league.managePlayer(iplMatch);
         league.managePlayer(noMatch);
-
 
 
         CyclingExperience experience = new CyclingExperience();
@@ -1876,8 +1822,6 @@ public class Runner {
         doorManagement.manageDoor(noDoor);
 
 
-
-
         DressStyler dresser = new DressStyler();
 
         Dress regularDress = new Dress();
@@ -1887,7 +1831,6 @@ public class Runner {
         dresser.styleDress(regularDress);
         dresser.styleDress(stylishFrock);
         dresser.styleDress(nullDress);
-
 
 
         AudioTuner tuner = new AudioTuner();
@@ -1912,8 +1855,6 @@ public class Runner {
         box.display(empty);
 
 
-
-
         OmeletteMaker chef = new OmeletteMaker();
 
         Egg genericEgg = new Egg();
@@ -1923,12 +1864,10 @@ public class Runner {
         chef.crack(henEgg);
 
 
-
         GardenExplorer botany = new GardenExplorer();
 
         Flower genericFlower = new Flower();
         Flower redRose = new Rose();
-
 
 
         SnackTime tray = new SnackTime();
@@ -1939,8 +1878,6 @@ public class Runner {
         tray.serveFries(basicFry);
         System.out.println("------");
         tray.serveFries(crunchyFry);
-
-
 
 
         KitchenCorner corner = new KitchenCorner();
@@ -1956,7 +1893,6 @@ public class Runner {
         corner.showcase(non);
 
 
-
         JuiceBar bar = new JuiceBar();
 
         Fruit normal = new Fruit();
@@ -1970,7 +1906,6 @@ public class Runner {
         bar.display(none1);
 
 
-
         DessertCorner corner1 = new DessertCorner();
 
         Halwa basc = new Halwa();
@@ -1982,8 +1917,6 @@ public class Runner {
         corner1.serve(special);
         System.out.println("------------");
         corner1.serve(nne);
-
-
 
 
         HulkShowdown showdown = new HulkShowdown();
@@ -2020,8 +1953,6 @@ public class Runner {
         showcase.display(noInsect);
 
 
-
-
         SoundStudio studio = new SoundStudio();
 
         Instrument basi = new Instrument();
@@ -2035,7 +1966,6 @@ public class Runner {
         studio.showcase(silence);
 
 
-
         SuitLab lab1 = new SuitLab();
 
         Ironman classic = new Ironman();
@@ -2047,7 +1977,6 @@ public class Runner {
         lab1.testSuit(advanced);
         System.out.println("-----------");
         lab1.testSuit(offline);
-
 
 
         SweetCorner cornerr = new SweetCorner();
@@ -2077,8 +2006,6 @@ public class Runner {
         Kajal emptyyy = null;
 
 
-
-
         KebabBox bx = new KebabBox();
 
         Kebab plain = new Kebab();
@@ -2098,7 +2025,6 @@ public class Runner {
         Kerala original = new Kerala();
         Kerala deluxe = new GodsOwnCountry();
         Kerala mystery = null;
-
 
 
         DessertChef chef = new DessertChef();
@@ -2150,15 +2076,11 @@ public class Runner {
         Mobile none = null;
 
 
-
-
         MountainRunner runner = new MountainRunner();
 
         Mountain plainMountain = new Mountain();
         Mountain peak = new Everest();
         Mountain none = null;
-
-
 
 
         MovieRunner runner = new MovieRunner();
@@ -2168,13 +2090,11 @@ public class Runner {
         Movie none = null;
 
 
-
         MushroomRunner runner = new MushroomRunner();
 
         Mushroom regularMushroom = new Mushroom();
         Mushroom buttonMushroom = new ButtonMushroom();
         Mushroom none = null;
-
 
 
         MusicRunner runner = new MusicRunner();
@@ -2184,15 +2104,11 @@ public class Runner {
         Music none = null;
 
 
-
-
         NailPolishRunner runner = new NailPolishRunner();
 
         Nailpolish regularPolish = new Nailpolish();
         Nailpolish glitterPolish = new GlitterPolish();
         Nailpolish none = null;
-
-
 
 
         OceanRunner runner = new OceanRunner();
@@ -2202,13 +2118,11 @@ public class Runner {
         Ocean none = null;
 
 
-
         OvenRunner runner = new OvenRunner();
 
         Oven regularOven = new Oven();
         Oven microwaveOven = new Microwave();
         Oven none = null;
-
 
 
         PaintRunner runner = new PaintRunner();
@@ -2225,13 +2139,11 @@ public class Runner {
         Panipuri none = null;
 
 
-
         ParrotRunner runner = new ParrotRunner();
 
         Parrot regularParrot = new Parrot();
         Parrot talkingParrot = new TalkingParrot();
         Parrot none = null;
-
 
 
         PizzaRunner runner = new PizzaRunner();
@@ -2248,13 +2160,11 @@ public class Runner {
         Plastic none = null;
 
 
-
         SoundSystemRunner runner = new SoundSystemRunner();
 
         Radio basic = new Radio();
         Radio advanced = new FMRadio();
         Radio silent = null;
-
 
 
         SweetCravingsRunner runner = new SweetCravingsRunner();
@@ -2271,13 +2181,11 @@ public class Runner {
         River none = null;
 
 
-
         MachineMindRunner runner = new MachineMindRunner();
 
         Robot generalBot = new Robot();
         Robot smartBot = new Android();
         Robot offline = null;
-
 
 
         ElasticPlayRunner runner = new ElasticPlayRunner();
@@ -2287,13 +2195,11 @@ public class Runner {
         Rubberband noBand = null;
 
 
-
         DramaStreamRunner runner = new DramaStreamRunner();
 
         Seriel basicSeriel = new Seriel();
         Seriel dramaSeriel = new DramaSeriel();
         Seriel noSeriel = null;
-
 
 
         SkinCareRunner runner = new SkinCareRunner();
@@ -2307,7 +2213,6 @@ public class Runner {
         Slipper baseSlipper = new Slipper();
         Slipper rubberySlipper = new RubberSlipper();
         Slipper noSlipper = null;
-
 
 
         UniverseRunner runner = new UniverseRunner();
@@ -2324,14 +2229,11 @@ public class Runner {
         Spiderman noSpider = null;
 
 
-
         StoneSurfaceRunner runner = new StoneSurfaceRunner();
 
         Stone plainStone = new Stone();
         Stone graniteStone = new Granite();
         Stone noStone = null;
-
-
 
 
         FlameControlRunner runner = new FlameControlRunner();
@@ -2341,13 +2243,11 @@ public class Runner {
         Stove noStove = null;
 
 
-
         SolarGlowRunner runner = new SolarGlowRunner();
 
         Sun naturalSun = new Sun();
         Sun glowingLight = new Light();
         Sun noSun = null;
-
 
 
         SunshineBloomRunner runner = new SunshineBloomRunner();
@@ -2363,6 +2263,46 @@ public class Runner {
         Sweetcorn spicyCorn = new MasalaCorn();
         Sweetcorn noCorn = null;
 
+
+
+
+
+
+    ScopeExplorerRunner runner = new ScopeExplorerRunner();
+
+    Telescope basicScope = new Telescope();
+    Telescope galaxyScope = new SpaceScope();
+    Telescope noScope = null;
+
+        runner.action(basicScope);
+        System.out.println("-----------");
+        runner.action(galaxyScope);
+        System.out.println("-----------");
+        runner.action(noScope);
+
+
+
+
+        TempleVisitRunner runner = new TempleVisitRunner();
+
+        Temple regularTemple = new Temple();
+        Temple famousTemple = new GoldenTemple();
+        Temple noTemple = null;
+
+
+        AsgardRunner runner = new AsgardRunner();
+
+        Thor classicThor = new Thor();
+        Thor mightyThor = new KingThor();
+        Thor noThor = null;
+
+
+        TowerRunner runner = new TowerRunner();
+
+        Tower normalTower = new Tower();
+        Tower surveillanceTower = new WatchTower();
+        Tower noTower = null;
     }
+
 
 }
