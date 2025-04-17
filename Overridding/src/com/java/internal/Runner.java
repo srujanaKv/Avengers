@@ -244,22 +244,30 @@ import com.java.internal.telescope.internal35.SpaceScope;
 import com.java.internal.telescope.internal35.Telescope;
 import com.java.internal.temple.internal100.GoldenTemple;
 import com.java.internal.temple.internal100.Temple;
+import com.java.internal.thor.external67.AsgardRunner;
 import com.java.internal.thor.internal67.KingThor;
 import com.java.internal.thor.internal67.Thor;
+import com.java.internal.tower.external76.TowerRunner;
 import com.java.internal.tower.internal76.Tower;
 import com.java.internal.tower.internal76.WatchTower;
 import com.java.internal.tree.internal18.MangoTree;
 import com.java.internal.tree.internal18.Tree;
+import com.java.internal.vehicle.external26.VehicleRunner;
 import com.java.internal.vehicle.internal26.Bullet;
 import com.java.internal.vehicle.internal26.Vehicle;
+import com.java.internal.virus.external98.VirusRunner;
 import com.java.internal.virus.internal98.FluVirus;
 import com.java.internal.virus.internal98.Virus;
+import com.java.internal.vodka.external94.VodkaRunner;
 import com.java.internal.vodka.internal94.PremiumVodka;
 import com.java.internal.vodka.internal94.Vodka;
+import com.java.internal.watch.external55.WatchRunner;
 import com.java.internal.watch.internal55.SmartWatch;
 import com.java.internal.watch.internal55.Watch;
+import com.java.internal.weather.external31.WeatherRunner;
 import com.java.internal.weather.internal31.Rainy;
 import com.java.internal.weather.internal31.Weather;
+import com.java.internal.wine.external93.WineRunner;
 import com.java.internal.wine.internal93.RedWine;
 import com.java.internal.wine.internal93.Wine;
 import com.java.internal.worm.internal2.Color;
@@ -360,7 +368,7 @@ public class Runner {
         ipl1.Dhoni();
         System.out.println("sun is created");
 
-        Sun sun = new Sun();
+        Sun sun = new Sun("yellow",30000);
         sun.Shine();
 
         Sun s = new Light();
@@ -2302,6 +2310,64 @@ public class Runner {
         Tower normalTower = new Tower();
         Tower surveillanceTower = new WatchTower();
         Tower noTower = null;
+
+
+
+        TreeRunner runner = new TreeRunner();
+
+        Tree regularTree = new Tree();
+        Tree specialTree = new MangoTree();
+        Tree noTree = null;
+
+
+        TvRunner runner = new TvRunner();
+
+        Tv normalTv = new Tv();
+        Tv smartRemote = new Remote();
+        Tv noTv = null;
+
+
+        VehicleRunner runner = new VehicleRunner();
+
+        Vehicle basicVehicle = new Vehicle();
+        Vehicle sportyBullet = new Bullet();
+        Vehicle noVehicle = null;
+
+
+        VirusRunner runner = new VirusRunner();
+
+        Virus regularVirus = new Virus();
+        Virus flu = new FluVirus();
+        Virus noVirus = null;
+
+
+
+        VodkaRunner runner = new VodkaRunner();
+
+        Vodka basicVodka = new Vodka();
+        Vodka premiumVodka = new PremiumVodka();
+        Vodka noVodka = null;
+
+
+        WatchRunner runner = new WatchRunner();
+
+        Watch normalWatch = new Watch();
+        Watch smartWatch = new SmartWatch();
+        Watch noWatch = null;
+
+
+        WeatherRunner runner = new WeatherRunner();
+
+        Weather genericWeather = new Weather();
+        Weather rainyWeather = new Rainy();
+        Weather noWeather = null;
+
+
+        WineRunner runner = new WineRunner();
+
+        Wine regularWine = new Wine();
+        Wine agedRedWine = new RedWine();
+        Wine noWine = null;
     }
 
 
