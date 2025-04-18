@@ -8,22 +8,21 @@ public class Runner {
 
         System.out.println("Corn is running");
 
-        Corn corn=new Corn("Sweetcorn","yellow",10,true);
-        Corn corn1=new Corn("butter","yellow",15,false);
-        Corn corn2=new Corn("Sweetcorn","yellow",10,true);
+        Corn corn = new Corn("Sweetcorn", "yellow", 10, true);
+        Corn corn1 = new Corn("butter", "yellow", 15, false);
+        Corn corn2 = new Corn("Sweetcorn", "yellow", 10, true);
 
-        System.out.println("Corn is not matching:"+corn.equals(corn2));
-        System.out.println("Corn is matching:"+corn2.equals(corn1));
+        System.out.println("Corn is not matching:" + corn.equals(corn2));
+        System.out.println("Corn is matching:" + corn2.equals(corn1));
 
 
         System.out.println("...........................");
-        Binocular binocular=new Binocular("Nikon","grey",15000,500);
-        Binocular binocular1=new Binocular("Krevia","black",10000,600);
-        Binocular binocular2=new Binocular("Nikon","grey",15000,500);
+        Binocular binocular = new Binocular("Nikon", "grey", 15000, 500);
+        Binocular binocular1 = new Binocular("Krevia", "black", 10000, 600);
+        Binocular binocular2 = new Binocular("Nikon", "grey", 15000, 500);
 
-        System.out.println("Binocular is matching:"+binocular.equals(binocular2));
-        System.out.println("binocular is not matching:"+binocular1.equals(binocular));
-
+        System.out.println("Binocular is matching:" + binocular.equals(binocular2));
+        System.out.println("binocular is not matching:" + binocular1.equals(binocular));
 
 
         System.out.println("Chair is running");
@@ -36,9 +35,6 @@ public class Runner {
         System.out.println("Chair is matching: " + chair.equals(chair2));
 
 
-
-
-
         System.out.println("Rubberband is running");
 
         Rubberband rubberband = new Rubberband("Faber-Castell", "Red", 50, true);
@@ -47,7 +43,6 @@ public class Runner {
 
         System.out.println("Rubberband is not matching: " + rubberband.equals(rubberband1));
         System.out.println("Rubberband is matching: " + rubberband.equals(rubberband2));
-
 
 
         System.out.println("Nailpolish is running");
@@ -60,10 +55,6 @@ public class Runner {
         System.out.println("Nailpolish is matching: " + polish1.equals(polish3));
 
 
-
-
-
-
         System.out.println("Mascara is running");
 
         Mascara mascara1 = new Mascara("Maybelline", "Volume Express", 299, true);
@@ -72,9 +63,6 @@ public class Runner {
 
         System.out.println("Mascara is not matching: " + mascara1.equals(mascara2));
         System.out.println("Mascara is matching: " + mascara1.equals(mascara3));
-
-
-
 
 
         System.out.println("Lipstick is running");
@@ -87,8 +75,6 @@ public class Runner {
         System.out.println("Lipstick is matching: " + lipstick1.equals(lipstick3));
 
 
-
-
         System.out.println("Ironman is running");
 
         Ironman mark50 = new Ironman("Mark 50", "Arc Reactor MK-IV", 100, true);
@@ -97,10 +83,6 @@ public class Runner {
 
         System.out.println("Ironman is not matching: " + mark50.equals(mark42));
         System.out.println("Ironman is matching: " + mark50.equals(mark50Duplicate));
-
-
-
-
 
 
         System.out.println("Spiderman is running");
@@ -113,8 +95,6 @@ public class Runner {
         System.out.println("Spiderman is matching: " + peter1.equals(peter3));
 
 
-
-
         System.out.println("Wolverine is running");
 
         Wolverine logan1 = new Wolverine("Logan", "Adamantium", 100, true);
@@ -123,9 +103,6 @@ public class Runner {
 
         System.out.println("Wolverine is not matching: " + logan1.equals(logan2));
         System.out.println("Wolverine is matching: " + logan1.equals(logan3));
-
-
-
 
 
         System.out.println("Avengers are assembling");
@@ -138,9 +115,6 @@ public class Runner {
         System.out.println("Avengers are matching: " + ironman.equals(ironmanDuplicate));
 
 
-
-
-
         System.out.println("VintageCar is running");
 
         VintageCar car1 = new VintageCar("Mustang Fastback", "Ford", 1965, true);
@@ -149,9 +123,6 @@ public class Runner {
 
         System.out.println("VintageCar is not matching: " + car1.equals(car2));
         System.out.println("VintageCar is matching: " + car1.equals(car3));
-
-
-
 
 
         System.out.println("Cloud is running");
@@ -164,7 +135,6 @@ public class Runner {
         System.out.println("Cloud is matching: " + cloud1.equals(cloud3));
 
 
-
         System.out.println("Rainbow is running");
 
         Rainbow rainbow1 = new Rainbow("Red", "Orange", 10, true);
@@ -173,9 +143,6 @@ public class Runner {
 
         System.out.println("Rainbow is not matching: " + rainbow1.equals(rainbow2));
         System.out.println("Rainbow is matching: " + rainbow1.equals(rainbow3));
-
-
-
 
 
         System.out.println("Magie is running");
@@ -188,8 +155,6 @@ public class Runner {
         System.out.println("Magie is matching: " + fireball.equals(fireball));
 
 
-
-
         System.out.println("Dragon is flying");
 
         Dragon dragon1 = new Dragon("Fire Dragon", "Red", 10, true);
@@ -198,8 +163,6 @@ public class Runner {
 
         System.out.println("Dragon is not matching: " + dragon1.equals(dragon2));
         System.out.println("Dragon is matching: " + dragon1.equals(dragon3));
-
-
 
 
         System.out.println("Mobile is running");
@@ -212,9 +175,6 @@ public class Runner {
         System.out.println("Mobile is matching: " + iphone12.equals(iphone12Duplicate));
 
 
-
-
-
         System.out.println("Dog is running");
 
         Dog dog1 = new Dog("Labrador", "Yellow", 3, true);
@@ -223,9 +183,6 @@ public class Runner {
 
         System.out.println("Dog is not matching: " + dog1.equals(dog2));
         System.out.println("Dog is matching: " + dog1.equals(dog3));
-
-
-
 
 
         System.out.println("Horse is running");
@@ -238,9 +195,6 @@ public class Runner {
         System.out.println("Horse is matching: " + horse1.equals(horse3));
 
 
-
-
-
         System.out.println("Chocolate is running");
 
         Chocolate chocolate1 = new Chocolate("Dark", "Mint", 100, true);
@@ -249,9 +203,6 @@ public class Runner {
 
         System.out.println("Chocolate is not matching: " + chocolate1.equals(chocolate2));
         System.out.println("Chocolate is matching: " + chocolate1.equals(chocolate3));
-
-
-
 
 
         System.out.println("Bike is running");
@@ -264,10 +215,6 @@ public class Runner {
         System.out.println("Bike is matching: " + bike1.equals(bike3));
 
 
-
-
-
-
         System.out.println("Bullet is revving");
 
         Bullet bullet1 = new Bullet("Bullet 350", "Black", 350, true);
@@ -276,9 +223,6 @@ public class Runner {
 
         System.out.println("Bullet is not matching: " + bullet1.equals(bullet2));
         System.out.println("Bullet is matching: " + bullet1.equals(bullet3));
-
-
-
 
 
         System.out.println("Indian Jeep is roaring");
@@ -291,9 +235,6 @@ public class Runner {
         System.out.println("Indian Jeep is matching: " + jeep1.equals(jeep3));
 
 
-
-
-
         System.out.println("Bicycle is rolling");
 
         Bicycle bicycle1 = new Bicycle("Mountain", "Giant", 21, false);
@@ -302,10 +243,6 @@ public class Runner {
 
         System.out.println("Bicycle is not matching: " + bicycle1.equals(bicycle2));
         System.out.println("Bicycle is matching: " + bicycle1.equals(bicycle3));
-
-
-
-
 
 
         System.out.println("Bird is flying");
@@ -318,8 +255,6 @@ public class Runner {
         System.out.println("Bird is matching: " + bird1.equals(bird3));
 
 
-
-
         System.out.println("Clock is ticking");
 
         Clock clock1 = new Clock("Analog", "Black", 12, 30);
@@ -328,8 +263,6 @@ public class Runner {
 
         System.out.println("Clock is not matching: " + clock1.equals(clock2));
         System.out.println("Clock is matching: " + clock1.equals(clock3));
-
-
 
 
         System.out.println("Bucket is ready");
@@ -342,10 +275,6 @@ public class Runner {
         System.out.println("Bucket is matching: " + bucket1.equals(bucket3));
 
 
-
-
-
-
         System.out.println("Radio is on");
 
         Radio radio1 = new Radio("Sony", "Black", 108, true);
@@ -354,9 +283,6 @@ public class Runner {
 
         System.out.println("Radio is not matching: " + radio1.equals(radio2));
         System.out.println("Radio is matching: " + radio1.equals(radio3));
-
-
-
 
 
         System.out.println("CD is playing");
@@ -369,7 +295,7 @@ public class Runner {
         System.out.println("CD is matching: " + cd1.equals(cd3));
 
 
-      // setter method //
+        // setter method //
 
         System.out.println("using setter");
         System.out.println("toString");
@@ -407,10 +333,6 @@ public class Runner {
         System.out.println("jacket1 and jacket2 isMatching? " + ja1);
         System.out.println("jacket1 and jacket3 isMatching? " + ja2);
         System.out.println("jacket2 and jacket3 isMatching? " + ja3);
-
-
-
-
 
 
         System.out.println("Using setter");
@@ -451,8 +373,476 @@ public class Runner {
         System.out.println("shoes1 and shoes2 isMatching? " + s1);
         System.out.println("shoes1 and shoes3 isMatching? " + s2);
         System.out.println("shoes2 and shoes3 isMatching? " + s3);
+
+
+        System.out.println("watch");
+
+        System.out.println("Equals method");
+
+        Watch watch1 = new Watch();
+        watch1.setBrand("Fossil");
+        watch1.setColor("Brown");
+        watch1.setType("Digital");
+        watch1.setPrice(5000.0);
+
+        Watch watch2 = new Watch();
+        watch2.setBrand("Fossil");
+        watch2.setColor("Brown");
+        watch2.setType("Digital");
+        watch2.setPrice(5000.0);
+
+        Watch watch3 = new Watch();
+        watch3.setBrand("Casio");
+        watch3.setColor("Silver");
+        watch3.setType("Analog");
+        watch3.setPrice(4200.0);
+
+        boolean w1 = watch1.equals(watch2);
+        boolean w2 = watch1.equals(watch3);
+        boolean w3 = watch2.equals(watch3);
+
+        System.out.println("watch1 and watch2 isMatching? " + w1);
+        System.out.println("watch1 and watch3 isMatching? " + w2);
+        System.out.println("watch2 and watch3 isMatching? " + w3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        IronBox iron = new IronBox();
+        iron.setBrand("Philips");
+        iron.setType("Steam");
+        iron.setColor("White");
+        iron.setPrice(1800.0);
+
+        System.out.println(iron);
+
+        System.out.println("Equals method");
+
+        IronBox iron1 = new IronBox();
+        iron1.setBrand("Bajaj");
+        iron1.setType("Dry");
+        iron1.setColor("Blue");
+        iron1.setPrice(1200.0);
+
+        IronBox iron2 = new IronBox();
+        iron2.setBrand("Bajaj");
+        iron2.setType("Dry");
+        iron2.setColor("Blue");
+        iron2.setPrice(1200.0);
+
+        IronBox iron3 = new IronBox();
+        iron3.setBrand("Usha");
+        iron3.setType("Steam");
+        iron3.setColor("Black");
+        iron3.setPrice(2000.0);
+
+        boolean i1 = iron1.equals(iron2);
+        boolean i2 = iron1.equals(iron3);
+        boolean i3 = iron2.equals(iron3);
+
+        System.out.println("iron1 and iron2 isMatching? " + i1);
+        System.out.println("iron1 and iron3 isMatching? " + i2);
+        System.out.println("iron2 and iron3 isMatching? " + i3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Lorry lorry = new Lorry();
+        lorry.setModel("Tata 407");
+        lorry.setColor("White");
+        lorry.setFuelType("Diesel");
+        lorry.setCapacity(3.5);
+
+        System.out.println(lorry);
+
+        System.out.println("Equals method");
+
+        Lorry lorry1 = new Lorry();
+        lorry1.setModel("Eicher Pro");
+        lorry1.setColor("Blue");
+        lorry1.setFuelType("Diesel");
+        lorry1.setCapacity(4.5);
+
+        Lorry lorry2 = new Lorry();
+        lorry2.setModel("Eicher Pro");
+        lorry2.setColor("Blue");
+        lorry2.setFuelType("Diesel");
+        lorry2.setCapacity(4.5);
+
+        Lorry lorry3 = new Lorry();
+        lorry3.setModel("Ashok Leyland");
+        lorry3.setColor("Red");
+        lorry3.setFuelType("CNG");
+        lorry3.setCapacity(5.0);
+
+        boolean l1 = lorry1.equals(lorry2);
+        boolean l2 = lorry1.equals(lorry3);
+        boolean l3 = lorry2.equals(lorry3);
+
+        System.out.println("lorry1 and lorry2 isMatching? " + l1);
+        System.out.println("lorry1 and lorry3 isMatching? " + l2);
+        System.out.println("lorry2 and lorry3 isMatching? " + l3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Auto auto = new Auto();
+        auto.setBrand("Bajaj");
+        auto.setColor("Yellow");
+        auto.setFuelType("CNG");
+        auto.setMileage(40.5);
+
+        System.out.println(auto);
+
+        System.out.println("Equals method");
+
+        Auto auto1 = new Auto();
+        auto1.setBrand("TVS");
+        auto1.setColor("Green");
+        auto1.setFuelType("Petrol");
+        auto1.setMileage(35.0);
+
+        Auto auto2 = new Auto();
+        auto2.setBrand("TVS");
+        auto2.setColor("Green");
+        auto2.setFuelType("Petrol");
+        auto2.setMileage(35.0);
+
+        Auto auto3 = new Auto();
+        auto3.setBrand("Piaggio");
+        auto3.setColor("Red");
+        auto3.setFuelType("Electric");
+        auto3.setMileage(70.0);
+
+        boolean a1 = auto1.equals(auto2);
+        boolean a2 = auto1.equals(auto3);
+        boolean a3 = auto2.equals(auto3);
+
+        System.out.println("auto1 and auto2 isMatching? " + a1);
+        System.out.println("auto1 and auto3 isMatching? " + a2);
+        System.out.println("auto2 and auto3 isMatching? " + a3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Helicopter heli = new Helicopter();
+        heli.setModel("Bell 429");
+        heli.setColor("White");
+        heli.setEngineType("Twin-engine");
+        heli.setSpeed(287.0);
+
+        System.out.println(heli);
+
+        System.out.println("Equals method");
+
+        Helicopter heli1 = new Helicopter();
+        heli1.setModel("Apache");
+        heli1.setColor("Camouflage");
+        heli1.setEngineType("Turboshaft");
+        heli1.setSpeed(293.0);
+
+        Helicopter heli2 = new Helicopter();
+        heli2.setModel("Apache");
+        heli2.setColor("Camouflage");
+        heli2.setEngineType("Turboshaft");
+        heli2.setSpeed(293.0);
+
+        Helicopter heli3 = new Helicopter();
+        heli3.setModel("Robinson R44");
+        heli3.setColor("Red");
+        heli3.setEngineType("Piston");
+        heli3.setSpeed(240.0);
+
+        boolean h1 = heli1.equals(heli2);
+        boolean h2 = heli1.equals(heli3);
+        boolean h3 = heli2.equals(heli3);
+
+        System.out.println("heli1 and heli2 isMatching? " + h1);
+        System.out.println("heli1 and heli3 isMatching? " + h2);
+        System.out.println("heli2 and heli3 isMatching? " + h3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Plane plane = new Plane();
+        plane.setModel("Boeing 737");
+        plane.setAirline("Air India");
+        plane.setEngineType("Turbofan");
+        plane.setRange(5600.0);
+
+        System.out.println(plane);
+
+        System.out.println("Equals method");
+
+        Plane plane1 = new Plane();
+        plane1.setModel("Airbus A320");
+        plane1.setAirline("IndiGo");
+        plane1.setEngineType("Turbofan");
+        plane1.setRange(6100.0);
+
+        Plane plane2 = new Plane();
+        plane2.setModel("Airbus A320");
+        plane2.setAirline("IndiGo");
+        plane2.setEngineType("Turbofan");
+        plane2.setRange(6100.0);
+
+        Plane plane3 = new Plane();
+        plane3.setModel("Boeing 777");
+        plane3.setAirline("Emirates");
+        plane3.setEngineType("GE90");
+        plane3.setRange(9700.0);
+
+        boolean p1 = plane1.equals(plane2);
+        boolean p2 = plane1.equals(plane3);
+        boolean p3 = plane2.equals(plane3);
+
+        System.out.println("plane1 and plane2 isMatching? " + p1);
+        System.out.println("plane1 and plane3 isMatching? " + p2);
+        System.out.println("plane2 and plane3 isMatching? " + p3);
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Rocket rocket = new Rocket();
+        rocket.setName("PSLV-C51");
+        rocket.setCountry("India");
+        rocket.setFuelType("Solid");
+        rocket.setHeight(44.0);
+
+        System.out.println(rocket);
+
+        System.out.println("Equals method");
+
+        Rocket rocket1 = new Rocket();
+        rocket1.setName("Falcon 9");
+        rocket1.setCountry("USA");
+        rocket1.setFuelType("Liquid");
+        rocket1.setHeight(70.0);
+
+        Rocket rocket2 = new Rocket();
+        rocket2.setName("Falcon 9");
+        rocket2.setCountry("USA");
+        rocket2.setFuelType("Liquid");
+        rocket2.setHeight(70.0);
+
+        Rocket rocket3 = new Rocket();
+        rocket3.setName("Ariane 5");
+        rocket3.setCountry("France");
+        rocket3.setFuelType("Liquid");
+        rocket3.setHeight(55.0);
+
+        boolean r1 = rocket1.equals(rocket2);
+        boolean r2 = rocket1.equals(rocket3);
+        boolean r3 = rocket2.equals(rocket3);
+
+        System.out.println("rocket1 and rocket2 isMatching? " + r1);
+        System.out.println("rocket1 and rocket3 isMatching? " + r2);
+        System.out.println("rocket2 and rocket3 isMatching? " + r3);
+
+
+
+/*
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Sunglasses sunglasses = new Sunglasses();
+        sunglasses.setBrand("Ray-Ban");
+        sunglasses.setFrameColor("Black");
+        sunglasses.setLensType("Polarized");
+        sunglasses.setPrice(4999.0);
+
+        System.out.println(sunglasses);
+
+        System.out.println("Equals method");
+
+        Sunglasses sg1 = new Sunglasses();
+        sg1.setBrand("Oakley");
+        sg1.setFrameColor("Blue");
+        sg1.setLensType("Mirror");
+        sg1.setPrice(3799.0);
+
+        Sunglasses sg2 = new Sunglasses();
+        sg2.setBrand("Oakley");
+        sg2.setFrameColor("Blue");
+        sg2.setLensType("Mirror");
+        sg2.setPrice(3799.0);
+
+        Sunglasses sg3 = new Sunglasses();
+        sg3.setBrand("Fastrack");
+        sg3.setFrameColor("Brown");
+        sg3.setLensType("UV");
+        sg3.setPrice(2599.0);
+
+        boolean s1 = sg1.equals(sg2);
+        boolean s2 = sg1.equals(sg3);
+        boolean s3 = sg2.equals(sg3);
+
+        System.out.println("sg1 and sg2 isMatching? " + s1);
+        System.out.println("sg1 and sg3 isMatching? " + s2);
+        System.out.println("sg2 and sg3 isMatching? " + s3); */
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Helmet helmet = new Helmet();
+        helmet.setBrand("Vega");
+        helmet.setColor("Black");
+        helmet.setType("Full Face");
+        helmet.setPrice(1800.0);
+        System.out.println(helmet);
+
+        System.out.println("Equals method");
+
+        Helmet helmet1 = new Helmet();
+        helmet1.setBrand("Studds");
+        helmet1.setColor("Red");
+        helmet1.setType("Open Face");
+        helmet1.setPrice(1500.0);
+
+        Helmet helmet2 = new Helmet();
+        helmet2.setBrand("Studds");
+        helmet2.setColor("Red");
+        helmet2.setType("Open Face");
+        helmet2.setPrice(1500.0);
+
+        Helmet helmet3 = new Helmet();
+        helmet3.setBrand("Steelbird");
+        helmet3.setColor("White");
+        helmet3.setType("Modular");
+        helmet3.setPrice(2200.0);
+
+        System.out.println("helmet1 and helmet2 isMatching? " + helmet1.equals(helmet2));
+        System.out.println("helmet1 and helmet3 isMatching? " + helmet1.equals(helmet3));
+        System.out.println("helmet2 and helmet3 isMatching? " + helmet2.equals(helmet3));
+
+
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Frock frock = new Frock();
+        frock.setBrand("Zara");
+        frock.setColor("Pink");
+        frock.setSize("M");
+        frock.setPrice(2999.0);
+        System.out.println(frock);
+
+        System.out.println("Equals method");
+
+        Frock frock1 = new Frock();
+        frock1.setBrand("H&M");
+        frock1.setColor("Blue");
+        frock1.setSize("S");
+        frock1.setPrice(2499.0);
+
+        Frock frock2 = new Frock();
+        frock2.setBrand("H&M");
+        frock2.setColor("Blue");
+        frock2.setSize("S");
+        frock2.setPrice(2499.0);
+
+        Frock frock3 = new Frock();
+        frock3.setBrand("Max");
+        frock3.setColor("Yellow");
+        frock3.setSize("L");
+        frock3.setPrice(1999.0);
+
+        System.out.println("frock1 and frock2 isMatching? " + frock1.equals(frock2));
+        System.out.println("frock1 and frock3 isMatching? " + frock1.equals(frock3));
+        System.out.println("frock2 and frock3 isMatching? " + frock2.equals(frock3));
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Saree saree = new Saree();
+        saree.setBrand("Nalli");
+        saree.setFabric("Silk");
+        saree.setColor("Red");
+        saree.setPrice(5500.0);
+        System.out.println(saree);
+
+        System.out.println("Equals method");
+
+        Saree saree1 = new Saree();
+        saree1.setBrand("Pothys");
+        saree1.setFabric("Cotton");
+        saree1.setColor("Blue");
+        saree1.setPrice(2500.0);
+
+        Saree saree2 = new Saree();
+        saree2.setBrand("Pothys");
+        saree2.setFabric("Cotton");
+        saree2.setColor("Blue");
+        saree2.setPrice(2500.0);
+
+        Saree saree3 = new Saree();
+        saree3.setBrand("Kanchipuram");
+        saree3.setFabric("Silk");
+        saree3.setColor("Green");
+        saree3.setPrice(8000.0);
+
+        System.out.println("saree1 and saree2 isMatching? " + saree1.equals(saree2));
+        System.out.println("saree1 and saree3 isMatching? " + saree1.equals(saree3));
+        System.out.println("saree2 and saree3 isMatching? " + saree2.equals(saree3));
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Dupatta dupatta = new Dupatta();
+        dupatta.setBrand("FabIndia");
+        dupatta.setFabric("Cotton");
+        dupatta.setColor("White");
+        dupatta.setPrice(799.0);
+        System.out.println(dupatta);
+
+        System.out.println("Equals method");
+
+        Dupatta dupatta1 = new Dupatta();
+        dupatta1.setBrand("Biba");
+        dupatta1.setFabric("Chiffon");
+        dupatta1.setColor("Pink");
+        dupatta1.setPrice(899.0);
+
+        Dupatta dupatta2 = new Dupatta();
+        dupatta2.setBrand("Biba");
+        dupatta2.setFabric("Chiffon");
+        dupatta2.setColor("Pink");
+        dupatta2.setPrice(899.0);
+
+        Dupatta dupatta3 = new Dupatta();
+        dupatta3.setBrand("W");
+        dupatta3.setFabric("Georgette");
+        dupatta3.setColor("Green");
+        dupatta3.setPrice(999.0);
+
+        System.out.println("dupatta1 and dupatta2 isMatching? " + dupatta1.equals(dupatta2));
+        System.out.println("dupatta1 and dupatta3 isMatching? " + dupatta1.equals(dupatta3));
+        System.out.println("dupatta2 and dupatta3 isMatching? " + dupatta2.equals(dupatta3));
+
+
     }
-}
+
+    }
+
+
+
+
 
 
 
