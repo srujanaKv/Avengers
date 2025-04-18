@@ -836,6 +836,154 @@ public class Runner {
         System.out.println("dupatta2 and dupatta3 isMatching? " + dupatta2.equals(dupatta3));
 
 
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Handbag handbag = new Handbag();
+        handbag.setBrand("Guess");
+        handbag.setMaterial("Leather");
+        handbag.setColor("Brown");
+        handbag.setPrice(3499.0);
+        System.out.println(handbag);
+
+        System.out.println("Equals method");
+
+        Handbag handbag1 = new Handbag();
+        handbag1.setBrand("Caprese");
+        handbag1.setMaterial("PU");
+        handbag1.setColor("Black");
+        handbag1.setPrice(2999.0);
+
+        Handbag handbag2 = new Handbag();
+        handbag2.setBrand("Caprese");
+        handbag2.setMaterial("PU");
+        handbag2.setColor("Black");
+        handbag2.setPrice(2999.0);
+
+        Handbag handbag3 = new Handbag();
+        handbag3.setBrand("Lavie");
+        handbag3.setMaterial("Canvas");
+        handbag3.setColor("Red");
+        handbag3.setPrice(2199.0);
+
+        System.out.println("handbag1 and handbag2 isMatching? " + handbag1.equals(handbag2));
+        System.out.println("handbag1 and handbag3 isMatching? " + handbag1.equals(handbag3));
+        System.out.println("handbag2 and handbag3 isMatching? " + handbag2.equals(handbag3));
+
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Headphones headphones = new Headphones();
+        headphones.setBrand("Sony");
+        headphones.setType("Over-Ear");
+        headphones.setColor("Black");
+        headphones.setPrice(3999.0);
+        System.out.println(headphones);
+
+        System.out.println("Equals method");
+
+        Headphones headphones1 = new Headphones();
+        headphones1.setBrand("JBL");
+        headphones1.setType("In-Ear");
+        headphones1.setColor("Blue");
+        headphones1.setPrice(1299.0);
+
+        Headphones headphones2 = new Headphones();
+        headphones2.setBrand("JBL");
+        headphones2.setType("In-Ear");
+        headphones2.setColor("Blue");
+        headphones2.setPrice(1299.0);
+
+        Headphones headphones3 = new Headphones();
+        headphones3.setBrand("Boat");
+        headphones3.setType("Wireless");
+        headphones3.setColor("Red");
+        headphones3.setPrice(1999.0);
+
+        System.out.println("headphones1 and headphones2 isMatching? " + headphones1.equals(headphones2));
+        System.out.println("headphones1 and headphones3 isMatching? " + headphones1.equals(headphones3));
+        System.out.println("headphones2 and headphones3 isMatching? " + headphones2.equals(headphones3));
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Speaker speaker = new Speaker();
+        speaker.setBrand("JBL");
+        speaker.setType("Bluetooth");
+        speaker.setColor("Black");
+        speaker.setPrice(3499.0);
+        System.out.println(speaker);
+
+        System.out.println("Equals method");
+
+        Speaker speaker1 = new Speaker();
+        speaker1.setBrand("Sony");
+        speaker1.setType("Wired");
+        speaker1.setColor("White");
+        speaker1.setPrice(2799.0);
+
+        Speaker speaker2 = new Speaker();
+        speaker2.setBrand("Sony");
+        speaker2.setType("Wired");
+        speaker2.setColor("White");
+        speaker2.setPrice(2799.0);
+
+        Speaker speaker3 = new Speaker();
+        speaker3.setBrand("Boat");
+        speaker3.setType("Portable");
+        speaker3.setColor("Blue");
+        speaker3.setPrice(1999.0);
+
+        System.out.println("speaker1 and speaker2 isMatching? " + speaker1.equals(speaker2));
+        System.out.println("speaker1 and speaker3 isMatching? " + speaker1.equals(speaker3));
+        System.out.println("speaker2 and speaker3 isMatching? " + speaker2.equals(speaker3));
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Curtain curtain = new Curtain();
+        curtain.setFabric("Cotton");
+        curtain.setColor("Blue");
+        curtain.setPattern("Floral");
+        curtain.setPrice(799.0);
+        System.out.println(curtain);
+
+        System.out.println("Equals method");
+
+        Curtain curtain1 = new Curtain();
+        curtain1.setFabric("Silk");
+        curtain1.setColor("Red");
+        curtain1.setPattern("Plain");
+        curtain1.setPrice(999.0);
+
+        Curtain curtain2 = new Curtain();
+        curtain2.setFabric("Silk");
+        curtain2.setColor("Red");
+        curtain2.setPattern("Plain");
+        curtain2.setPrice(999.0);
+
+        Curtain curtain3 = new Curtain();
+        curtain3.setFabric("Polyester");
+        curtain3.setColor("Grey");
+        curtain3.setPattern("Striped");
+        curtain3.setPrice(649.0);
+
+        System.out.println("curtain1 and curtain2 isMatching? " + curtain1.equals(curtain2));
+        System.out.println("curtain1 and curtain3 isMatching? " + curtain1.equals(curtain3));
+        System.out.println("curtain2 and curtain3 isMatching? " + curtain2.equals(curtain3));
+
     }
 
     }
