@@ -984,6 +984,44 @@ public class Runner {
         System.out.println("curtain1 and curtain3 isMatching? " + curtain1.equals(curtain3));
         System.out.println("curtain2 and curtain3 isMatching? " + curtain2.equals(curtain3));
 
+
+
+
+
+        System.out.println("Using setter");
+        System.out.println("toString");
+
+        Mirror mirror = new Mirror();
+        mirror.setShape("Round");
+        mirror.setFrameMaterial("Wood");
+        mirror.setSize("Medium");
+        mirror.setPrice(1200.0);
+        System.out.println(mirror);
+
+        System.out.println("Equals method");
+
+        Mirror mirror1 = new Mirror();
+        mirror1.setShape("Square");
+        mirror1.setFrameMaterial("Plastic");
+        mirror1.setSize("Large");
+        mirror1.setPrice(950.0);
+
+        Mirror mirror2 = new Mirror();
+        mirror2.setShape("Square");
+        mirror2.setFrameMaterial("Plastic");
+        mirror2.setSize("Large");
+        mirror2.setPrice(950.0);
+
+        Mirror mirror3 = new Mirror();
+        mirror3.setShape("Oval");
+        mirror3.setFrameMaterial("Metal");
+        mirror3.setSize("Small");
+        mirror3.setPrice(700.0);
+
+        System.out.println("mirror1 and mirror2 isMatching? " + mirror1.equals(mirror2));
+        System.out.println("mirror1 and mirror3 isMatching? " + mirror1.equals(mirror3));
+        System.out.println("mirror2 and mirror3 isMatching? " + mirror2.equals(mirror3));
+
     }
 
     }
