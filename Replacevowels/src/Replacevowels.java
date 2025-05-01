@@ -8,7 +8,7 @@ public class Replacevowels {
             char ch = input.charAt(i);
 
             if ("aeiou".indexOf(ch) != -1) {
-                char nextChar = (char)(ch + 1);
+                char nextChar = (char) (ch + 1);
                 while ("aeiou".indexOf(nextChar) != -1) {
                     nextChar++;
                 }
