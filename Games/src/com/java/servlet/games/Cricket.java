@@ -10,12 +10,13 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/send",loadOnStartup = 1)
 public class Cricket extends GenericServlet {
 
-public Cricket(){
-    System.out.println("cricket is created");
-}
+    public Cricket() {
+        System.out.println("cricket is created");
+    }
 
-@Override
+    @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-     System.out.println("Service is running in Cricket");
+        System.out.println("Service is running in Cricket");
     }
 }
+
