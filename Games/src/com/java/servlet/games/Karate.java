@@ -7,7 +7,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/send",loadOnStartup = 1)
+@WebServlet(urlPatterns = "/karate",loadOnStartup = 1)
 public class Karate extends GenericServlet {
     public Karate(){
         System.out.println("Karate is running");
