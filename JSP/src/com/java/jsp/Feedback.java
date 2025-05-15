@@ -18,8 +18,9 @@ public class Feedback extends GenericServlet {
             phone=Long.parseLong(tel);
         }
         String Feedback=servletRequest.getParameter("Feedback");
-
         System.out.println("forwarding the feeedback to jsp");
+
+
 
         RequestDispatcher requestDispatcher=servletRequest.getRequestDispatcher("Response.jsp");
         requestDispatcher.forward(servletRequest,servletResponse);
