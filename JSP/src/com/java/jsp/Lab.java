@@ -15,8 +15,8 @@ public class Lab extends GenericServlet {
         String location=servletRequest.getParameter("Location");
         String number=servletRequest.getParameter("NumberOfTechnicians");
         int tech=0;
-        if(number!=null){
-            tech=Integer.parseInt(number);
+        if(number!=null) {
+            tech = Integer.parseInt(number);
         }
 
         System.out.println("forwarding the lab to jsp");
