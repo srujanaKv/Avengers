@@ -29,5 +29,6 @@ public class License extends GenericServlet {
 
         RequestDispatcher requestDispatcher=servletRequest.getRequestDispatcher("Response.jsp");
         requestDispatcher.forward(servletRequest,servletResponse);
+
     }
 }
