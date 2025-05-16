@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Movie ticket booking app</title>
+    <title>JSP Forms</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+      background-color: pink;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    .content {
+      flex: 1;
+    }
+    </style>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar navbar-dark bg-primary">
+<nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">Navbar</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,3 +36,12 @@
         </div>
     </div>
 </nav>
+
+<h1>JSP FORMS</h1>
+
+<footer class="bg-dark text-white text-center py-3 mt-auto">
+    &copy; 2025 JSP Forms Portal. All rights reserved.
+</footer>
+
+</body>
+</html>
