@@ -41,21 +41,21 @@
         <h1>DONATE HERE</h1>
 <form action="Donation"method="post">
     <div class="mb-3">
-        <label for="exampleInputName" class="form-label">Name</label>
-        <input type="Name" class="form-control" id="exampleInputName" aria-describedby="emailHelp">
+        <label for="Name" class="form-label">Name</label>
+        <input type="Name" class="form-control" id="Name" aria-describedby="emailHelp">
         <!--<div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>-->
     </div>
     <div class="mb-3">
-        <label for="exampleInputamount" class="form-label">Amount</label>
-        <input type="Amount" class="form-control" id="exampleInputamount">
+        <label for="Amount" class="form-label">Amount</label>
+        <input type="Amount" class="form-control" id="Amount">
     </div>
     <div class="mb-3">
-        <label for="exampleInputcause" class="form-label">Cause</label>
-        <input type="Cause" class="form-control" id="exampleInputcause">
+        <label for="cause" class="form-label">Cause</label>
+        <input type="Cause" class="form-control" id="cause">
     </div>
     <div class="mb-3">
-        <label for="exampleInputphonenumber" class="form-label">PhoneNumber</label>
-        <input type="PhoneNumber" class="form-control" id="exampleInputphonenumber">
+        <label for="phonenumber" class="form-label">PhoneNumber</label>
+        <input type="PhoneNumber" class="form-control" id="phonenumber">
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
@@ -63,11 +63,11 @@
     <div align="center">
         <h1>Thank You!</h1>
         <h2>${message}</h2>
-        <p><strong>Name:</strong>${name}</p>
+        <p><strong>Name:</strong>${Name}</p>
         <p><strong>Amount:</strong>${Amount}</p>
-        <p><strong>Cause:</strong>${Cause}</p>
-        <p><strong>Phone Number:</strong>${PhoneNumber}</p>
+        <p><strong>Cause:</strong>${cause}</p>
+        <p><strong>Phone Number:</strong>${phoneNumber}</p>
     </div>
-
+</div>
 </body>
 </html>
