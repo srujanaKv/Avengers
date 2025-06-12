@@ -7,8 +7,8 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class MoviebookingDto implements MoviebookingRepo {
-
+public class MoviebookingRepoImpl
+{
 
     @Override
     public String persist(MoviebookingDto moviebookingDto) {
