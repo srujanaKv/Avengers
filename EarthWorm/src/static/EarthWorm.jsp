@@ -15,10 +15,8 @@
         .navbar-custom .nav-link:hover {
             color: #f0e68c;
         }
-        .body{
-        background-image:url('https://meadowia.com/wp-content/uploads/2022/03/earthworms-eyes.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+       body{
+        background-color: Pink;
         }
     </style>
 </head>
@@ -38,16 +36,16 @@
 <div align="center">
     <h1>EarthWorm History</h1>
      <form action="EarthWorm" method="post">
-        Scientific Name:<input type="Name" name="ScientificName"><br>
-         Body Shape:<input type="Shape" name="BodyShape"><br>
-         Color:<input type="Color" name="Color"><br>
+        Scientific Name:<input type="text" name="ScientificName"><br>
+         Body Shape:<input type="text" name="BodyShape"><br>
+         Color:<input type="color" name="Color"><br>
          Female:
-         <select name="Female">
+         <select type="text" name="Female">
              <option value="true">True</option>
              <option value="false">False</option>
          </select><br>
          Lifespan:<input type="number" name="lifespan"><br>
-         Food:<input type="food" name="Food"><br>
+         Food:<input type="text" name="Food"><br>
          <input type="submit" value="submit">
      </form>
 </div>
