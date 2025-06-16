@@ -41,21 +41,21 @@ public class EarthWormServiceImpl implements EarthWormService {
                 return false;
             }
 
-            // ✅ Corrected the gender logic
+
             if (n_female) {
                 System.out.println("Gender: Female");
             } else {
                 System.out.println("Gender: Male");
             }
 
-            if (n_lifespan > 0) {
-                System.out.println("Lifespan is valid: " + n_lifespan);
+            if (n_lifespan >4) {
+                System.out.println("Lifespan is invalid: " + n_lifespan);
             } else {
-                System.out.println("Invalid Lifespan");
+                System.out.println("valid Lifespan");
                 return false;
             }
 
-            // ✅ Corrected food length check
+
             if (Food != null && Food.length() >= 3) {
                 System.out.println("Food is valid: " + Food);
             } else {

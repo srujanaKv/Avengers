@@ -20,6 +20,15 @@
             text-align: center;
 
         }
+        .center h1 {
+      color: white;
+      font-weight: bold;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, 0.4);
+      display: inline-block;
+      padding: 20px 40px;
+      border-radius: 10px;
+    }
          body {
             background-image: url('https://cdn.sanity.io/images/oyzyxja8/v2/7f89bb3259eff720d10fa5d93470a6d09fc72816-2500x1080.jpg?w=2048&q=90&auto=format');
             background-size: cover;

@@ -28,7 +28,7 @@ public class EarthwormServlet extends HttpServlet {
         if (Female != null) {
             n_female = Boolean.parseBoolean(Female);
         }
-        String lifespan = req.getParameter("LifeSpan");
+        String lifespan = req.getParameter("lifespan");
         int n_lifespan = 0;
         if (lifespan != null) {
             n_lifespan = Integer.parseInt(lifespan);
@@ -46,23 +46,49 @@ public class EarthwormServlet extends HttpServlet {
 
 
         EarthWormService earthWormService = new EarthWormServiceImpl();
-
-        boolean saved = earthWormService.save(earthWormDto);
-        RequestDispatcher requestDispatcher;
-
-        if (saved) {
+        boolean valid = earthWormService.save(earthWormDto);
+        /*RequestDispatcher requestDispatcher;
+        if(saved) {
+            requestDispatcher= req.getRequestDispatcher("EarthWormSuccess.jsp");
             req.setAttribute("message", "Report");
-            req.setAttribute("earthWormdto", earthWormDto);
-            requestDispatcher = req.getRequestDispatcher("EarthWormSuccess.jsp");
-        } else {
-            req.setAttribute("message", "Details not incorrect");
-            requestDispatcher = req.getRequestDispatcher("EarthWorm.jsp");
+            req.setAttribute("earthWormDto", earthWormDto);
         }
+        else {
+            requestDispatcher= req.getRequestDispatcher("EarthWorm.jsp");
+            req.setAttribute("message", "Details not incorrect");
+        }
+        requestDispatcher.forward(req,resp);
+    }
 
-        // Make sure this is the only output method
+
+    }  */
+        if(valid){
+            System.out.println("done successfully");
+            req.setAttribute("success", "earthworm Details saved successfully");
+        } else {
+            System.out.println("not saved");
+            req.setAttribute("dto",earthWormDto);
+            req.setAttribute("failure", "earthworm not saved");
+        }
+        RequestDispatcher requestDispatcher = req.getRequestDispatcher("/EarthWorm.jsp");
         requestDispatcher.forward(req, resp);
     }
+}
 
+
+   /* if(valid){
+        System.out.println("service done successfully");
+            req.setAttribute("success","Duster Details Saved Successfully");
+        }
+                else{
+                System.out.println("not saved");
+            req.setAttribute("dto",dusterDTO);
+            req.setAttribute("failure","Duster Details not saved Successfully");
+        }
+RequestDispatcher requestDispatcher=req.getRequestDispatcher("/form.jsp");
+        requestDispatcher.forward(req,resp);
 
     }
+
+    */
 

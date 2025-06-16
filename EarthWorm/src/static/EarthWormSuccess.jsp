@@ -15,10 +15,8 @@
         .navbar-custom .nav-link:hover {
             color: #f0e68c;
         }
-        .body{
-        background-image:url('https://meadowia.com/wp-content/uploads/2022/03/earthworms-eyes.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
+        body{
+        background-color: yellow;
         }
     </style>
 </head>
@@ -29,7 +27,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="EarthWorm.jsp">View Details</a>
+                    <a class="nav-link" href="index.jsp">Home</a>
                 </li>
             </ul>
         </div>
@@ -38,12 +36,12 @@
 <div>
     <h1>EarthWorm History</h1>
     <h2>${message}</h2>
-    <p><strong>ScientificName:</strong>${earthWormDto.ScientificName}</p>
-    <p><strong>BodyShape:</strong>${earthWormDto.BodyShape}</p>
-    <p><strong>Color:</strong>${earthWormDto.Color}</p>
-    <p><strong>n_female:</strong>${earthWormDto.n_female}</p>
-    <p><strong>n_lifespan:</strong>${earthWormDto.n_lifespan}</p>
-    <p><strong>Food:</strong>${earthWormDto.Food}</p>
+    <p><strong>ScientificName:</strong>${earthWormdto.ScientificName}</p>
+    <p><strong>BodyShape:</strong>${earthWormdto.BodyShape}</p>
+    <p><strong>Color:</strong>${earthWormdto.Color}</p>
+    <p><strong>n_female:</strong>${earthWormdto.n_female}</p>
+    <p><strong>n_lifespan:</strong>${earthWormdto.n_lifespan}</p>
+    <p><strong>Food:</strong>${earthWormdto.Food}</p>
 
 
 </div>

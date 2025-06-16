@@ -12,7 +12,7 @@ public class EarthWormRepoImpl implements EarthWormRepo{
     public boolean persist(EarthWormDto earthWormDto) {
         System.out.println("running the earthWormDto");
         if(earthWormDto!=null){
-            String url="jdbc:mysql://localhost:3306/EarthWorm";
+            String url="jdbc:mysql://localhost:3306/earthworm";
             String username="root";
             String password="Srujana#2001";
 
@@ -22,7 +22,7 @@ public class EarthWormRepoImpl implements EarthWormRepo{
                 Connection connection= DriverManager.getConnection(url,username,password);
 
                 //Step 3 : Prepare the Statement(for string '"++"'
-                String sql="insert into earthworm values(0,'"+earthWormDto.getScientificName()+"','"+earthWormDto.getBodyShape()+"',"+earthWormDto.getColor()+","+earthWormDto.getN_female()+",'"+earthWormDto.getN_lifespan()+"','"+earthWormDto.getFood()+"')";
+                String sql="insert into earthworm values(0,'"+earthWormDto.getScientificName()+"','"+earthWormDto.getBodyShape()+"','"+earthWormDto.getColor()+"',"+earthWormDto.getN_female()+","+earthWormDto.getN_lifespan()+",'"+earthWormDto.getFood()+"')";
                 Statement statement=connection.createStatement();
                 //step 4 : execute the statement
                 statement.executeUpdate(sql);
