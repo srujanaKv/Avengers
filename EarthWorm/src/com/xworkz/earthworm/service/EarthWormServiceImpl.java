@@ -4,6 +4,8 @@ import com.xworkz.earthworm.dto.EarthWormDto;
 import com.xworkz.earthworm.repo.EarthWormRepo;
 import com.xworkz.earthworm.repo.EarthWormRepoImpl;
 
+import java.util.Optional;
+
 public class EarthWormServiceImpl implements EarthWormService {
 
     public EarthWormServiceImpl() {
@@ -48,7 +50,7 @@ public class EarthWormServiceImpl implements EarthWormService {
                 System.out.println("Gender: Male");
             }
 
-            if (n_lifespan >4) {
+            if (n_lifespan > 4) {
                 System.out.println("Lifespan is invalid: " + n_lifespan);
             } else {
                 System.out.println("valid Lifespan");
@@ -72,5 +74,17 @@ public class EarthWormServiceImpl implements EarthWormService {
 
         System.out.println("DTO is null, cannot save.");
         return false;
+    }
+
+    @Override
+    public Optional<EarthWormDto> findById(int id) {
+        System.out.println("Runnning findById in earthwormserviceimpl");
+
+        if (id > 0) {
+            System.out.println("id is valid:"+id);
+            EarthWormRepo earthWormRepo = new EarthWormRepoImpl();
+           return earthWormRepo.findById(id);
+        }
+        return EarthWormService.super.findById(id);
     }
 }

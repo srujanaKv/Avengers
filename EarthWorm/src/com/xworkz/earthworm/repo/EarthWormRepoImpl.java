@@ -6,6 +6,7 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Statement;
+import java.util.Optional;
 
 public class EarthWormRepoImpl implements EarthWormRepo{
     @Override
@@ -33,6 +34,13 @@ public class EarthWormRepoImpl implements EarthWormRepo{
             return true;
         }
         return false;
+    }
+
+    @Override
+    public Optional<EarthWormDto> findById(int id) {
+        System.out.println("running findById in EarthWormRepoImpl...");
+
+        return EarthWormRepo.super.findById(id);
     }
 }
 

@@ -81,7 +81,7 @@
         <div class="collapse navbar-collapse">
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="EarthWorm.jsp">View Details</a>
+                    <a class="nav-link" href="index.jsp"> Go Home</a>
                 </li>
             </ul>
         </div>

@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Optional;
 
 @WebServlet(urlPatterns = "/EarthWorm", loadOnStartup = 1)
 
@@ -73,22 +74,31 @@ public class EarthwormServlet extends HttpServlet {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("/EarthWorm.jsp");
         requestDispatcher.forward(req, resp);
     }
+
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        System.out.println("doGet is running succesfully");
+        String EarthWormId=req.getParameter("EarthWormId");
+
+        if(EarthWormId!=null)
+        {
+            int id=Integer.parseInt(EarthWormId);
+            System.out.println("search id :"+id);
+            EarthWormService earthWormService=new EarthWormServiceImpl();
+            Optional<EarthWormDto> optionalEarthWormDto= earthWormService.findById(id);
+            if(optionalEarthWormDto.isPresent())
+            {
+                System.out.println("duster data is found");
+            }
+            else{
+                System.out.println("duster data is not found for id :"+id);
+            }
+        }
+    }
+
+
 }
 
 
-   /* if(valid){
-        System.out.println("service done successfully");
-            req.setAttribute("success","Duster Details Saved Successfully");
-        }
-                else{
-                System.out.println("not saved");
-            req.setAttribute("dto",dusterDTO);
-            req.setAttribute("failure","Duster Details not saved Successfully");
-        }
-RequestDispatcher requestDispatcher=req.getRequestDispatcher("/form.jsp");
-        requestDispatcher.forward(req,resp);
-
-    }
-
-    */
 
