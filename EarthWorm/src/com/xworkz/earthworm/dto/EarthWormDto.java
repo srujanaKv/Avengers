@@ -1,6 +1,8 @@
 package com.xworkz.earthworm.dto;
 
 
+import lombok.NoArgsConstructor;
+
 public class EarthWormDto {
     private String ScientificName;
     private String BodyShape;
@@ -9,6 +11,7 @@ public class EarthWormDto {
     private int n_lifespan;
     private String Food;
 
+    @NoArgsConstructor
 //    public EarthWormDto(String ScientificName, String BodyShape, String Color, Boolean Female, int LifeSpan, String Food) {
 //        this.ScientificName = ScientificName;
 //        this.BodyShape = BodyShape;

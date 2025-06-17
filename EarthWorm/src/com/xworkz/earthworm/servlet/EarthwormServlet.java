@@ -89,7 +89,8 @@ public class EarthwormServlet extends HttpServlet {
             Optional<EarthWormDto> optionalEarthWormDto= earthWormService.findById(id);
             if(optionalEarthWormDto.isPresent())
             {
-                System.out.println("duster data is found");
+                EarthWormDto earthWormDto=optionalEarthWormDto.get();
+                System.out.println("duster data is found:"+earthWormDto);
             }
             else{
                 System.out.println("duster data is not found for id :"+id);
