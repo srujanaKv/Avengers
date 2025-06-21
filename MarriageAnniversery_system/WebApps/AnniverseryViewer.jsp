@@ -39,11 +39,11 @@
     <br>
     <span style="color:red;">${failure}</span>
     <br><br>
-    <p>CouplesName: ${dto.CouplesName}</p>
-    <p>YearOfTogetherness: ${dto.YearOfTogetherness}</p>
-    <p>Venue: ${dto.Venue}</p>
-    <p>NumberOfGuests: ${dto.NumberOfGuests}</p>
-    <p>ContactNumber: ${dto.ContactNumber}</p>
+    <p>CouplesName: ${dto.couplesName}</p>
+    <p>YearOfTogetherness: ${dto.yearOfTogetherness}</p>
+    <p>Venue: ${dto.venue}</p>
+    <p>NumberOfGuests: ${dto.numberOfGuests }</p>
+    <p>ContactNumber: ${dto.contactNumber}</p>
 </div>
 </body>
 </html>
