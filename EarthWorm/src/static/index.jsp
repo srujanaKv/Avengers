@@ -46,6 +46,9 @@
             <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link" href="EarthWorm.jsp">View Details</a>
+                    <a class="nav-link" href="EarthWormViewer.jsp">Viewer</a>
+
+
                 </li>
             </ul>
         </div>
