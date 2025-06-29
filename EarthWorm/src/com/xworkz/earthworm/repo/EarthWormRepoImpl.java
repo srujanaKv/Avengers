@@ -3,6 +3,7 @@ package com.xworkz.earthworm.repo;
 import com.xworkz.earthworm.utils.JdbcUtils;
 import com.xworkz.earthworm.dto.EarthWormDto;
 import com.xworkz.earthworm.utils.JdbcUtils;
+import lombok.SneakyThrows;
 
 import java.sql.*;
 import java.time.LocalDate;
@@ -41,7 +42,7 @@ public class EarthWormRepoImpl implements EarthWormRepo {
         }
 
         @Override
-        public EarthWormDto[] findAll() {
+        public EarthWormDto[] findAlll(); {
             int index = 0;
             int arraySize = 1;
             EarthWormDto[] earthWormDtos = null;
@@ -54,7 +55,7 @@ public class EarthWormRepoImpl implements EarthWormRepo {
                 PreparedStatement statement = connection.prepareStatement(fetchAll);
                 ResultSet resultSet = statement.executeQuery();
                 while (resultSet.next()) {
-                    earthWormDtos = new EarthWormDto[][arraySize];
+                    earthWormDtos = new EarthWormDto[arraySize];
                     System.out.println(resultSet.getInt(1));
                     System.out.println(resultSet.getString(2));
                     System.out.println(resultSet.getString(3));
@@ -142,4 +143,17 @@ public class EarthWormRepoImpl implements EarthWormRepo {
         return Optional.empty();
     }
 } */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
