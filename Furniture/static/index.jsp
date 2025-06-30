@@ -26,6 +26,8 @@
             <a class="nav-link" href="License.jsp">License</a>
             <a class="nav-link" href="FIR.jsp">FIR</a>
             <a class="nav-link" href="Laboratory.jsp">Lab </a>
+            <a class="nav-link" href="Donation.jsp">Donation</a>
+
 
         </div>
     </div>
