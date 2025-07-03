@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page import="com.xworkz.vaathavaran.dto.WeatherDto" %>
 <html>
 <head>
     <title>Weather Submitted</title>
