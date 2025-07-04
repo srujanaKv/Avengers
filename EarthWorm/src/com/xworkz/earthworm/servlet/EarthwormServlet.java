@@ -37,7 +37,7 @@ public class EarthwormServlet extends HttpServlet {
         String Food = req.getParameter("Food");
 
 
-        EarthWormDto earthWormDto = new EarthWormDto();
+        EarthWormDto earthWormDto = new EarthWormDto(ScientificName,BodyShape,Color,n_female,n_lifespan,Food);
         earthWormDto.setScientificName(ScientificName);
         earthWormDto.setBodyShape(BodyShape);
         earthWormDto.setColor(Color);
@@ -90,10 +90,10 @@ public class EarthwormServlet extends HttpServlet {
             if(optionalEarthWormDto.isPresent())
             {
                 EarthWormDto earthWormDto=optionalEarthWormDto.get();
-                System.out.println("duster data is found:"+earthWormDto);
+                System.out.println("earthworm data is found:"+earthWormDto);
             }
             else{
-                System.out.println("duster data is not found for id :"+id);
+                System.out.println("earthworm data is not found for id :"+id);
             }
         }
     }
