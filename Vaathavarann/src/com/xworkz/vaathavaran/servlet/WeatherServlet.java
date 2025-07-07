@@ -34,9 +34,8 @@ public class WeatherServlet extends HttpServlet {
                 Integer.parseInt(req.getParameter("precipitation"))
         );
 
-        String result = weatherService.save(WeatherDto);
+        String result = weatherService.save(dto);
         req.setAttribute("result", result);
         req.setAttribute("weatherDTO", dto);
-        req.getRequestDispatcher("weather-success.jsp").forward(req, resp);
-    }
+        req.getRequestDispatcher("WeatherSuccess.jsp").forward(req, resp);    }
 }
