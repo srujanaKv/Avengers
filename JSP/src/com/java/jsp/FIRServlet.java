@@ -1,4 +1,4 @@
-package com.java.jsp;
+/*package com.java.jsp;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -35,7 +35,7 @@ public class FIRServlet extends HttpServlet {
         RequestDispatcher requestDispatcher = req.getRequestDispatcher("response.jsp");
         requestDispatcher.forward(req,resp);
     }
-}
+}  */
 
 
 
