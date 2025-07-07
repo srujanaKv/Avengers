@@ -45,5 +45,73 @@ public class WeatherDto implements Serializable {
         this.precipitation = precipitation;
     }
 
+    public String getPlace() {
+        return place;
+    }
+
+    public String getWeather() {
+        return weather;
+    }
+
+    public int getMinTemp() {
+        return minTemp;
+    }
+
+    public int getMaxTemp() {
+        return maxTemp;
+    }
+
+    public String getCloudy() {
+        return cloudy;
+    }
+
+    public String getRaining() {
+        return raining;
+    }
+
+    public int getRainMM() {
+        return rainMM;
+    }
+
+    public int getHumidity() {
+        return humidity;
+    }
+
+    public int getWindSpeed() {
+        return windSpeed;
+    }
+
+    public String getSunrise() {
+        return sunrise;
+    }
+
+    public String getSunset() {
+        return sunset;
+    }
+
+    public String getMoonrise() {
+        return moonrise;
+    }
+
+    public String getMoonset() {
+        return moonset;
+    }
+
+    public String getRainStart() {
+        return rainStart;
+    }
+
+    public String getRainEnd() {
+        return rainEnd;
+    }
+
+    public int getPrecipitation() {
+        return precipitation;
+    }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
 
 }
+
