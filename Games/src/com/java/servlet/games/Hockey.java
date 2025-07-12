@@ -7,7 +7,7 @@ import javax.servlet.ServletResponse;
 import javax.servlet.annotation.WebServlet;
 import java.io.IOException;
 
-@WebServlet(urlPatterns = "/send",loadOnStartup = 1)
+@WebServlet(urlPatterns = "/hockey",loadOnStartup = 1)
 public class Hockey extends GenericServlet {
 
     public Hockey(){
