@@ -7,7 +7,7 @@ import java.util.Optional;
 public interface EarthWormRepo {
     boolean persist(EarthWormDto earthWormDto);
 
-    default Optional<EarthWormDto> findById (int id){
+    default Optional<EarthWormDto> findAll (){
         return Optional.empty();
     }
 }
