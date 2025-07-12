@@ -1,4 +1,4 @@
-package com.java.jsp;
+/* package com.java.jsp;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+
+import static com.sun.xml.internal.ws.policy.sourcemodel.wspolicy.XmlToken.Name;
 
 @WebServlet(urlPatterns = "/Donation")
 
@@ -32,7 +34,7 @@ public class DonationServlet extends HttpServlet {
 
         System.out.println("forwarding the crimedetails to jsp");
         req.setAttribute("message","Save Success");
-        req.setAttribute("name",exampleInputName);
+        req.setAttribute("name",Name);
         req.setAttribute("Amount",amount);
         req.setAttribute("Cause",cause);
 
@@ -40,6 +42,5 @@ public class DonationServlet extends HttpServlet {
         requestDispatcher.forward(req,resp);
     }
 }
+*/
 
-    }
-}
