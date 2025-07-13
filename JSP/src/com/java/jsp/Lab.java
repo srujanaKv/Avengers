@@ -1,13 +1,14 @@
-package com.java.jsp;
+/*package com.java.jsp;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
 import java.io.IOException;
 
 @WebServlet(urlPatterns = "/Lab")
-public class Lab extends GenericServlet {
+public class Lab extends HttpServlet {
     @Override
-    public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
+    public void doPost (ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("service is running");
 
         String text=servletRequest.getParameter("Name");
@@ -26,4 +27,4 @@ public class Lab extends GenericServlet {
 
 
     }
-}
+} */
