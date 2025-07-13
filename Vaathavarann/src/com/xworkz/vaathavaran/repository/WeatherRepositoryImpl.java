@@ -12,7 +12,7 @@ public class WeatherRepositoryImpl implements WeatherRepository {
     public String save(WeatherDto dto) {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/vaathavaran", "root", "Srujana22");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/weather", "root", "Srujana#2001");
 
             String query = String.format(
                     "INSERT INTO weather VALUES (0, '%s', '%s', %d, %d, '%s', '%s', %d, %d, %d, '%s', '%s', '%s', '%s', '%s', '%s', %d, now())",
