@@ -1,27 +1,41 @@
 package com.xworkz.earthworm.dto;
 
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.sql.Timestamp;
+
 public class EarthWormDto {
+    private int earthId;
     private String ScientificName;
     private String BodyShape;
     private String Color;
     private Boolean n_female;
     private int n_lifespan;
     private String Food;
+    //private String createdBy=LoginConstant.SYSTEM.toString();
+   // private Timestamp CreatedTime=Timestamp.valueOf(LocalDateTime.now());
 
-    @NoArgsConstructor
-//    public EarthWormDto(String ScientificName, String BodyShape, String Color, Boolean Female, int LifeSpan, String Food) {
-//        this.ScientificName = ScientificName;
-//        this.BodyShape = BodyShape;
-//        this.Color = Color;
-//        this.Female = Female;
-//        this.LifeSpan = LifeSpan;
-//        this.Food = Food;
-//    }
+    public EarthWormDto(int earthId,String scientificName, String bodyShape, String color,
+                   Boolean female, int lifespan, String food) {
+        this.earthId=earthId;
+        this.ScientificName = scientificName;
+        this.BodyShape = bodyShape;
+        this.Color = color;
+        this.n_female = female;
+        this.n_lifespan = lifespan;
+        this.Food = food;
+    }
 
 
+    public int getEarthId() {
+        return earthId;
+    }
+    public void setEarthId(int earthId){
+        earthId=earthId;
+    }
 
     public String getScientificName() {
         return ScientificName;
