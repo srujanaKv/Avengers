@@ -1,4 +1,4 @@
-package com.xworkz.earthworm.constant;
+/*package com.xworkz.earthworm.constant;
 
 public enum EWProperties {
 
@@ -22,6 +22,6 @@ public enum EWProperties {
         return prop;
     }
 }
-
+*/
 
 
