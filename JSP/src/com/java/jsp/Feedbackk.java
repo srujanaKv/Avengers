@@ -1,4 +1,4 @@
-package com.java.jsp;
+ /* package com.java.jsp;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -34,6 +34,6 @@ public class Feedbackk extends HttpServlet {
         requestDispatcher.forward(req,resp);
 }
 }
-
+*/
 
 
