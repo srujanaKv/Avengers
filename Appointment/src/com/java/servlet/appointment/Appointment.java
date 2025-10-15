@@ -37,7 +37,7 @@ public class Appointment extends GenericServlet {
         servletResponse.setContentType("text/html");
         PrintWriter writer=servletResponse.getWriter();
 
-        writer.println("<h1>Thank you for appointing</h2>");
+        writer.println("<h1>Thank you for appointing</h1>");
         writer.println("<h3>firstname</h3>"+text);
         writer.println("<h3>lastname</h3>"+lastname);
         writer.println("<h3>email</h3>"+email);
